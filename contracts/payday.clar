@@ -192,3 +192,7 @@
     (ok true)
   )
 )
+
+
+;; Payroll function 13
+(define-public (process-payment-13 (amount uint))
