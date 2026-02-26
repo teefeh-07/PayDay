@@ -33,3 +33,6 @@ Describes aspect 10 of the chainhooks integrations.
 
 ## Section 11
 Describes aspect 11 of the chainhooks integrations.
+
+## Section 12
+Describes aspect 12 of the chainhooks integrations.
