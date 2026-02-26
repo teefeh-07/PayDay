@@ -9,3 +9,4 @@ export async function initWalletConnect() {
       description: "PayDay Stacks Integration",
       url: "https://payday.network",
       icons: ["https://payday.network/logo.png"]
+    }
