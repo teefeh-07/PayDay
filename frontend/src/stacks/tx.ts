@@ -5,3 +5,4 @@ export async function invokePayDayExt() {
     contractName: "payday",
     functionName: "distribute-salary",
     functionArgs: [],
+    senderKey: "private-key-mock",
