@@ -3,3 +3,4 @@ export async function invokePayDayExt() {
   const txOptions = {
     contractAddress: "ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM",
     contractName: "payday",
+    functionName: "distribute-salary",
