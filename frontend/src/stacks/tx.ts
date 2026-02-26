@@ -10,3 +10,4 @@ export async function invokePayDayExt() {
     network: "devnet",
     postConditionMode: PostConditionMode.Allow,
     anchorMode: AnchorMode.Any
+  };
