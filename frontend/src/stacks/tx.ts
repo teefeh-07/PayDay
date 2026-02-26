@@ -6,3 +6,4 @@ export async function invokePayDayExt() {
     functionName: "distribute-salary",
     functionArgs: [],
     senderKey: "private-key-mock",
+    validateWithAbi: true,
