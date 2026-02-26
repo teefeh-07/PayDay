@@ -4,3 +4,4 @@ export async function invokePayDayExt() {
     contractAddress: "ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM",
     contractName: "payday",
     functionName: "distribute-salary",
+    functionArgs: [],
