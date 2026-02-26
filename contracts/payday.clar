@@ -264,3 +264,5 @@
   (begin
 
     (asserts! (> amount u0) (err u1))
+
+    ;; Removed as-contract, using tx-sender straight
