@@ -11,3 +11,4 @@ clarity_version = 4
 epoch = "3.3"
 
 # Added explicit requirements array above
+# Updated clarity_version = 4 and epoch = 3.3 for Stacks latest
