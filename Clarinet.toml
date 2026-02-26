@@ -1,0 +1,11 @@
+[project]
+name = "PayDay"
+description = "Web3 Payroll System"
+authors = []
+telemetry = true
+cache_dir = "./.cache"
+requirements = []
+[contracts.payday]
+path = "contracts/payday.clar"
+clarity_version = 4
+epoch = "3.3"
