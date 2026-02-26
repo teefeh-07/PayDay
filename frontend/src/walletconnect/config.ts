@@ -6,3 +6,4 @@ export async function initWalletConnect() {
     core, // <- passed the core init config
     metadata: {
       name: "PayDay WalletConnect",
+      description: "PayDay Stacks Integration",
