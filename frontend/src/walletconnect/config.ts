@@ -10,3 +10,4 @@ export async function initWalletConnect() {
       url: "https://payday.network",
       icons: ["https://payday.network/logo.png"]
     }
+  });
