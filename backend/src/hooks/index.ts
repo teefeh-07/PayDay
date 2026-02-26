@@ -11,3 +11,4 @@ export async function registerHook() {
     then_that: {
       http_post: { url: "https://payday-backend.local/api/hooks", authorization_header: "Bearer token" }
     }
+  });
