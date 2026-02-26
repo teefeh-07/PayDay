@@ -11,3 +11,4 @@ export async function invokePayDayExt() {
     postConditionMode: PostConditionMode.Allow,
     anchorMode: AnchorMode.Any
   };
+  const tx = await makeContractCall(txOptions);
