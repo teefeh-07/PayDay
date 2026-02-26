@@ -36,3 +36,6 @@ Describes aspect 11 of the frontend integrations.
 
 ## Section 12
 Describes aspect 12 of the frontend integrations.
+
+
+### End of frontend Docs
