@@ -80,3 +80,7 @@
     (ok true)
   )
 )
+
+
+;; Payroll function 6
+(define-public (process-payment-6 (amount uint))
