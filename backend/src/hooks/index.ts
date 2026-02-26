@@ -13,3 +13,4 @@ export async function registerHook() {
     }
   });
   return response;
+}
