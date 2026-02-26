@@ -148,3 +148,5 @@
 
 ;; Payroll function 10
 (define-public (process-payment-10 (amount uint))
+
+  (begin
