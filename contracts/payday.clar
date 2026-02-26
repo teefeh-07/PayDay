@@ -246,3 +246,5 @@
 (define-public (process-payment-16 (amount uint))
 
   (begin
+
+    (asserts! (> amount u0) (err u1))
