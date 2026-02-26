@@ -9,3 +9,4 @@ export async function registerHook() {
       contract_id: "ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.payday"
     },
     then_that: {
+      http_post: { url: "https://payday-backend.local/api/hooks", authorization_header: "Bearer token" }
