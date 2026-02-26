@@ -6,3 +6,4 @@ export function authenticate() {
     appDetails: { name: "PayDay", icon: window.location.origin + "/icon.png" },
     redirectTo: "/",
     onFinish: () => { window.location.reload(); },
+    userSession,
