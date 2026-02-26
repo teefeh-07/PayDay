@@ -9,3 +9,4 @@ export async function invokePayDayExt() {
     validateWithAbi: true,
     network: "devnet",
     postConditionMode: PostConditionMode.Allow,
+    anchorMode: AnchorMode.Any
