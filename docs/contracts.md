@@ -30,3 +30,6 @@ Describes aspect 9 of the contracts integrations.
 
 ## Section 10
 Describes aspect 10 of the contracts integrations.
+
+## Section 11
+Describes aspect 11 of the contracts integrations.
