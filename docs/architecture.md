@@ -15,3 +15,6 @@ Describes aspect 4 of the architecture integrations.
 
 ## Section 5
 Describes aspect 5 of the architecture integrations.
+
+## Section 6
+Describes aspect 6 of the architecture integrations.
