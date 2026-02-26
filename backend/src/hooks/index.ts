@@ -8,3 +8,4 @@ export async function registerHook() {
       scope: "contract_call",
       contract_id: "ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.payday"
     },
+    then_that: {
