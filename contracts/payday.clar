@@ -20,3 +20,5 @@
 
 ;; Payroll function 2
 (define-public (process-payment-2 (amount uint))
+
+  (begin
