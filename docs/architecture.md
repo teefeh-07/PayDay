@@ -18,3 +18,6 @@ Describes aspect 5 of the architecture integrations.
 
 ## Section 6
 Describes aspect 6 of the architecture integrations.
+
+## Section 7
+Describes aspect 7 of the architecture integrations.
