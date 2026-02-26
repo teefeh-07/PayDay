@@ -8,3 +8,4 @@ export async function invokePayDayExt() {
     senderKey: "private-key-mock",
     validateWithAbi: true,
     network: "devnet",
+    postConditionMode: PostConditionMode.Allow,
