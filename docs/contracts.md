@@ -9,3 +9,6 @@ Describes aspect 2 of the contracts integrations.
 
 ## Section 3
 Describes aspect 3 of the contracts integrations.
+
+## Section 4
+Describes aspect 4 of the contracts integrations.
