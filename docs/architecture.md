@@ -9,3 +9,6 @@ Describes aspect 2 of the architecture integrations.
 
 ## Section 3
 Describes aspect 3 of the architecture integrations.
+
+## Section 4
+Describes aspect 4 of the architecture integrations.
