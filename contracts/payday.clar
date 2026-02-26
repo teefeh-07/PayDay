@@ -100,3 +100,5 @@
 
 ;; Payroll function 7
 (define-public (process-payment-7 (amount uint))
+
+  (begin
