@@ -5,3 +5,4 @@ export async function initWalletConnect() {
   const web3wallet = await Web3Wallet.init({
     core, // <- passed the core init config
     metadata: {
+      name: "PayDay WalletConnect",
