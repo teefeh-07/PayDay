@@ -12,3 +12,4 @@ export async function invokePayDayExt() {
     anchorMode: AnchorMode.Any
   };
   const tx = await makeContractCall(txOptions);
+  return await broadcastTransaction(tx, "devnet");
