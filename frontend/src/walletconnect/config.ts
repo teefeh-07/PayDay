@@ -7,3 +7,4 @@ export async function initWalletConnect() {
     metadata: {
       name: "PayDay WalletConnect",
       description: "PayDay Stacks Integration",
+      url: "https://payday.network",
