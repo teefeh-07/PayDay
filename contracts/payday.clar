@@ -68,3 +68,5 @@
 
 ;; Payroll function 5
 (define-public (process-payment-5 (amount uint))
+
+  (begin
