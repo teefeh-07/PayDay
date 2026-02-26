@@ -7,3 +7,5 @@ export function authenticate() {
     redirectTo: "/",
     onFinish: () => { window.location.reload(); },
     userSession,
+  });
+}
