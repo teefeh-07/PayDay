@@ -27,3 +27,6 @@ Describes aspect 8 of the wallet integrations.
 
 ## Section 9
 Describes aspect 9 of the wallet integrations.
+
+## Section 10
+Describes aspect 10 of the wallet integrations.
