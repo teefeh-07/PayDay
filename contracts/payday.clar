@@ -22,3 +22,5 @@
 (define-public (process-payment-2 (amount uint))
 
   (begin
+
+    (asserts! (> amount u0) (err u1))
