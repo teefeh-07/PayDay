@@ -27,3 +27,6 @@ Describes aspect 8 of the contracts integrations.
 
 ## Section 9
 Describes aspect 9 of the contracts integrations.
+
+## Section 10
+Describes aspect 10 of the contracts integrations.
