@@ -32,3 +32,7 @@
     (ok true)
   )
 )
+
+
+;; Payroll function 3
+(define-public (process-payment-3 (amount uint))
