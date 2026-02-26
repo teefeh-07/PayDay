@@ -12,3 +12,4 @@ export async function initWalletConnect() {
     }
   });
   return web3wallet;
+}
