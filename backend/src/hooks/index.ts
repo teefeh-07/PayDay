@@ -6,3 +6,4 @@ export async function registerHook() {
     network: "devnet",
     if_this: {
       scope: "contract_call",
+      contract_id: "ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM.payday"
