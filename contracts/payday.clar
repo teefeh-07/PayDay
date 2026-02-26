@@ -112,3 +112,7 @@
     (ok true)
   )
 )
+
+
+;; Payroll function 8
+(define-public (process-payment-8 (amount uint))
