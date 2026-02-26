@@ -13,3 +13,4 @@ export async function invokePayDayExt() {
   };
   const tx = await makeContractCall(txOptions);
   return await broadcastTransaction(tx, "devnet");
+}
