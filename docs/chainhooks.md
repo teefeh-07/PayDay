@@ -18,3 +18,6 @@ Describes aspect 5 of the chainhooks integrations.
 
 ## Section 6
 Describes aspect 6 of the chainhooks integrations.
+
+## Section 7
+Describes aspect 7 of the chainhooks integrations.
