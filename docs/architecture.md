@@ -24,3 +24,6 @@ Describes aspect 7 of the architecture integrations.
 
 ## Section 8
 Describes aspect 8 of the architecture integrations.
+
+## Section 9
+Describes aspect 9 of the architecture integrations.
