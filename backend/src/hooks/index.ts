@@ -5,3 +5,4 @@ export async function registerHook() {
     name: "PayDay Main Hook",
     network: "devnet",
     if_this: {
+      scope: "contract_call",
