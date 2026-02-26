@@ -11,3 +11,4 @@ export async function initWalletConnect() {
       icons: ["https://payday.network/logo.png"]
     }
   });
+  return web3wallet;
