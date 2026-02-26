@@ -4,3 +4,4 @@ export async function registerHook() {
   const response = await client.createChainhook({
     name: "PayDay Main Hook",
     network: "devnet",
+    if_this: {
