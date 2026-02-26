@@ -18,3 +18,6 @@ Describes aspect 5 of the contracts integrations.
 
 ## Section 6
 Describes aspect 6 of the contracts integrations.
+
+## Section 7
+Describes aspect 7 of the contracts integrations.
