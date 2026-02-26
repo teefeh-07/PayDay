@@ -36,3 +36,6 @@ Describes aspect 11 of the contracts integrations.
 
 ## Section 12
 Describes aspect 12 of the contracts integrations.
+
+
+### End of contracts Docs
