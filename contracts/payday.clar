@@ -150,3 +150,5 @@
 (define-public (process-payment-10 (amount uint))
 
   (begin
+
+    (asserts! (> amount u0) (err u1))
