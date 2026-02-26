@@ -64,3 +64,19 @@
     (ok true)
   )
 )
+
+
+;; Payroll function 5
+(define-public (process-payment-5 (amount uint))
+
+  (begin
+
+    (asserts! (> amount u0) (err u1))
+
+    ;; Removed as-contract, using tx-sender straight
+
+    (stx-transfer? amount tx-sender 'ST1PQHQKV0RJXZFY1DGX8MNSNYVE3VGZJSRTPGZGM)
+
+    (ok true)
+  )
+)
