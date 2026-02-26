@@ -1,0 +1,15 @@
+import { Core } from "@walletconnect/core";
+import { Web3Wallet } from "@walletconnect/web3wallet";
+const core = new Core({ projectId: "YOUR_PROJECT_ID" });
+export async function initWalletConnect() {
+  const web3wallet = await Web3Wallet.init({
+    core, // <- passed the core init config
+    metadata: {
+      name: "PayDay WalletConnect",
+      description: "PayDay Stacks Integration",
+      url: "https://payday.network",
+      icons: ["https://payday.network/logo.png"]
+    }
+  });
+  return web3wallet;
+}
