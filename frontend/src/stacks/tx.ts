@@ -7,3 +7,4 @@ export async function invokePayDayExt() {
     functionArgs: [],
     senderKey: "private-key-mock",
     validateWithAbi: true,
+    network: "devnet",
