@@ -21,3 +21,6 @@ Describes aspect 6 of the frontend integrations.
 
 ## Section 7
 Describes aspect 7 of the frontend integrations.
+
+## Section 8
+Describes aspect 8 of the frontend integrations.
