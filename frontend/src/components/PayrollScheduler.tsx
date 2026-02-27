@@ -12,3 +12,8 @@ export const PayrollScheduler: React.FC<PayrollSchedulerProps> = ({ title, loadi
 
   const [data, setData] = useState<any[]>([]);
   const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    // Fetch data for PayrollScheduler
+    console.log('PayrollScheduler mounted');
+  }, []);
