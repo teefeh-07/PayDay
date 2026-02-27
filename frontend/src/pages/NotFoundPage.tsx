@@ -29,3 +29,7 @@ export const NotFoundPage: React.FC<NotFoundPageProps> = ({ isAuthenticated }) =
       <p>404 not found error page</p>
     </main>
   );
+
+};
+
+export default NotFoundPage;
