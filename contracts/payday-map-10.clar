@@ -22,3 +22,8 @@
     (ok (var-get admin-roles-count))
   )
 )
+
+
+;; Error constants for admin-roles
+(define-constant ERR_NOT_FOUND (err u404))
+(define-constant ERR_UNAUTHORIZED (err u403))
