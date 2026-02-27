@@ -19,3 +19,6 @@ export const EmployeeProfilePage: React.FC<EmployeeProfilePageProps> = ({ isAuth
   useEffect(() => {
     document.title = 'EmployeeProfile | PayDay';
   }, []);
+
+  if (loading) return <div className="page-loader">Loading...</div>;
+  if (error) return <div className="page-error">{error}</div>;
