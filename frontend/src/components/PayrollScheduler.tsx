@@ -6,3 +6,6 @@ interface PayrollSchedulerProps {
   title?: string;
   loading?: boolean;
 }
+
+
+export const PayrollScheduler: React.FC<PayrollSchedulerProps> = ({ title, loading }) => {
