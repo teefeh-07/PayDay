@@ -27,3 +27,6 @@
 ;; Error constants for expense-ledger
 (define-constant ERR_NOT_FOUND (err u404))
 (define-constant ERR_UNAUTHORIZED (err u403))
+
+
+;; Map initialized successfully for expense-ledger
