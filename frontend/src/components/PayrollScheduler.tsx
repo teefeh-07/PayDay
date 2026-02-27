@@ -20,3 +20,12 @@ export const PayrollScheduler: React.FC<PayrollSchedulerProps> = ({ title, loadi
 
   if (loading) return <div className="loading-spinner">Loading...</div>;
   if (error) return <div className="error-banner">{error}</div>;
+
+  return (
+    <div className="payrollscheduler-container">
+      <h2>{title || 'PayrollScheduler'}</h2>
+      <div className="payrollscheduler-content">
+        {/* Schedule and automate payroll runs */}
+      </div>
+    </div>
+  );
