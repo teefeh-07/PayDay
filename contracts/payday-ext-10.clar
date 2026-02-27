@@ -5,3 +5,6 @@
 (define-public (set-tax-rate (rate uint))
 
   (begin
+
+    (asserts! (<= rate u50) (err u107))
+    (ok rate)
