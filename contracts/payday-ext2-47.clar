@@ -5,3 +5,5 @@
 (define-public (unstake-salary (stake-id uint))
 
   (begin
+
+    (ok stake-id)
