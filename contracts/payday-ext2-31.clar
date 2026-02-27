@@ -8,3 +8,6 @@
 
     (asserts! (is-eq tx-sender contract-caller) (err u200))
     (ok true)
+
+  )
+)
