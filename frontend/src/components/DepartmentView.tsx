@@ -9,3 +9,6 @@ interface DepartmentViewProps {
 
 
 export const DepartmentView: React.FC<DepartmentViewProps> = ({ title, loading }) => {
+
+  const [data, setData] = useState<any[]>([]);
+  const [error, setError] = useState<string | null>(null);
