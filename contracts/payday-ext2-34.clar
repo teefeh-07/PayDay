@@ -5,3 +5,6 @@
 (define-public (fund-payroll (amount uint))
 
   (begin
+
+    (asserts! (> amount u0) (err u202))
+    (ok amount)
