@@ -19,3 +19,6 @@ jobs:
 
       - name: Dependency Review
         run: echo "Reviewing dependencies..."
+
+      - name: Report
+        run: echo "Security scan complete"
