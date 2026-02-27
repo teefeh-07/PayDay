@@ -21,3 +21,8 @@ export const Default: Story = {
 export const Loading: Story = {
   args: { title: 'Dashboard', loading: true },
 };
+
+
+export const WithError: Story = {
+  args: { title: 'Dashboard', loading: false },
+};
