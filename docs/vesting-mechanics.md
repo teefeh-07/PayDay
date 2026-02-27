@@ -14,3 +14,11 @@ This document covers token vesting mechanics for the PayDay decentralized payrol
 - Node.js 20+
 - Clarinet CLI
 
+
+## Core Concepts
+
+Understanding token vesting mechanics requires familiarity with:
+- Clarity smart contracts
+- Stacks consensus mechanism
+- Bitcoin finality model
+
