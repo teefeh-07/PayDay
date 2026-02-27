@@ -19,3 +19,6 @@ export const loggingMiddleware = (options: loggingMiddlewareOptions = { enabled:
     next();
   };
 };
+
+
+export default loggingMiddleware;
