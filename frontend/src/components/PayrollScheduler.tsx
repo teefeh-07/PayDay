@@ -9,3 +9,6 @@ interface PayrollSchedulerProps {
 
 
 export const PayrollScheduler: React.FC<PayrollSchedulerProps> = ({ title, loading }) => {
+
+  const [data, setData] = useState<any[]>([]);
+  const [error, setError] = useState<string | null>(null);
