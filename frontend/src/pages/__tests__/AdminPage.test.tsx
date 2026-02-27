@@ -25,3 +25,5 @@ describe('AdminPage', () => {
     expect(state.error).toBeDefined();
     expect(state.data).toBeNull();
   });
+
+});
