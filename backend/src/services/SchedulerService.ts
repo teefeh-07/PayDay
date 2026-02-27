@@ -20,3 +20,7 @@ export class SchedulerService {
     if (!this.config.enabled) return;
     console.log('SchedulerService starting...');
   }
+
+  async shutdown(): Promise<void> {
+    console.log('SchedulerService shutting down...');
+  }
