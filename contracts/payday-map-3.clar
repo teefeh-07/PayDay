@@ -9,3 +9,8 @@
 
 
 (define-data-var expense-ledger-count uint u0)
+
+
+(define-read-only (get-expense-ledger-count)
+  (var-get expense-ledger-count)
+)
