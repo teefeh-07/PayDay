@@ -15,3 +15,8 @@ export class AuthService {
     this.config = config;
     console.log('AuthService initialized');
   }
+
+  async initialize(): Promise<void> {
+    if (!this.config.enabled) return;
+    console.log('AuthService starting...');
+  }
