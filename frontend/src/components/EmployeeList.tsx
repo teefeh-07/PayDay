@@ -17,3 +17,6 @@ export const EmployeeList: React.FC<EmployeeListProps> = ({ title, loading }) =>
     // Fetch data for EmployeeList
     console.log('EmployeeList mounted');
   }, []);
+
+  if (loading) return <div className="loading-spinner">Loading...</div>;
+  if (error) return <div className="error-banner">{error}</div>;
