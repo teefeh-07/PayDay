@@ -1,0 +1,41 @@
+// Employee data and permissions context
+import React, { createContext, useContext, useState, useCallback } from 'react';
+
+
+interface EmployeeContextType {
+  loading: boolean;
+  error: string | null;
+  data: any;
+  refresh: () => void;
+}
+
+
+const EmployeeContext = createContext<EmployeeContextType | undefined>(undefined);
+
+
+export const EmployeeContextProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const [data, setData] = useState<any>(null);
+
+  const refresh = useCallback(() => {
+    setLoading(true);
+    // Refresh EmployeeContext data
+    setLoading(false);
+  }, []);
+
+  return (
+    <EmployeeContext.Provider value={{ loading, error, data, refresh }}>
+      {children}
+    </EmployeeContext.Provider>
+  );
+};
+
+
+export const useEmployee = () => {
+  const ctx = useContext(EmployeeContext);
+  if (!ctx) throw new Error('useEmployee must be used within EmployeeContextProvider');
+  return ctx;
+};
+
+export default EmployeeContext;
