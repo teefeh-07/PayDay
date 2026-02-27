@@ -7,3 +7,10 @@
 
 This document covers smart contract audit report for the PayDay decentralized payroll platform built on Stacks.
 
+
+## Prerequisites
+
+- Stacks wallet (Hiro Wallet recommended)
+- Node.js 20+
+- Clarinet CLI
+
