@@ -24,3 +24,14 @@ router.post('/', async (req, res) => {
     res.status(500).json({ error: 'Internal server error' });
   }
 });
+
+
+// PUT /departments/:id
+router.put('/:id', async (req, res) => {
+  try {
+    const { id } = req.params;
+    res.json({ status: 'updated', id });
+  } catch (err) {
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
