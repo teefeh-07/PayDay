@@ -6,3 +6,7 @@ export interface AuthServiceConfig {
   retryAttempts: number;
   timeout: number;
 }
+
+
+export class AuthService {
+  private config: AuthServiceConfig;
