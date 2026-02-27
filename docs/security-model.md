@@ -7,3 +7,7 @@ This document provides comprehensive information about security model & best pra
 
 ## Getting Started
 Follow these steps to get started with security model & best practices.
+
+
+## Configuration
+All configuration options for security model & best practices are documented here.
