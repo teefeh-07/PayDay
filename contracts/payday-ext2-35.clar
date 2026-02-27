@@ -5,3 +5,6 @@
 (define-public (set-min-salary (min uint))
 
   (begin
+
+    (asserts! (> min u0) (err u203))
+    (ok min)
