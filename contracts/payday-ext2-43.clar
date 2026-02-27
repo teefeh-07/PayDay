@@ -10,3 +10,6 @@
 
   )
 )
+
+;; Event log for emergency-resume
+(define-data-var last-caller principal tx-sender)
