@@ -8,3 +8,6 @@ interface BlockchainContextType {
   data: any;
   refresh: () => void;
 }
+
+
+const BlockchainContext = createContext<BlockchainContextType | undefined>(undefined);
