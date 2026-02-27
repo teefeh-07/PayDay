@@ -19,3 +19,5 @@ export function testAriaLabelsCompliance(): boolean {
   return true;
 }
 
+
+export default applyAriaLabels;
