@@ -7,3 +7,11 @@ export interface useStacksState {
   error: string | null;
   data: any;
 }
+
+
+export function useStacks() {
+  const [state, setState] = useState<useStacksState>({
+    loading: false,
+    error: null,
+    data: null,
+  });
