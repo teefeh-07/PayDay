@@ -5,3 +5,6 @@
 (define-public (approve-timesheet (employee principal) (hours uint))
 
   (begin
+
+    (asserts! (<= hours u160) (err u105))
+    (ok hours)
