@@ -24,3 +24,7 @@ export class AuditService {
   async shutdown(): Promise<void> {
     console.log('AuditService shutting down...');
   }
+
+}
+
+export default AuditService;
