@@ -17,3 +17,6 @@ export const NotificationCenter: React.FC<NotificationCenterProps> = ({ title, l
     // Fetch data for NotificationCenter
     console.log('NotificationCenter mounted');
   }, []);
+
+  if (loading) return <div className="loading-spinner">Loading...</div>;
+  if (error) return <div className="error-banner">{error}</div>;
