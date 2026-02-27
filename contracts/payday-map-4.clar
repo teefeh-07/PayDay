@@ -22,3 +22,8 @@
     (ok (var-get department-budget-count))
   )
 )
+
+
+;; Error constants for department-budget
+(define-constant ERR_NOT_FOUND (err u404))
+(define-constant ERR_UNAUTHORIZED (err u403))
