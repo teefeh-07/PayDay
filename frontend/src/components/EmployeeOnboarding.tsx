@@ -17,3 +17,6 @@ export const EmployeeOnboarding: React.FC<EmployeeOnboardingProps> = ({ title, l
     // Fetch data for EmployeeOnboarding
     console.log('EmployeeOnboarding mounted');
   }, []);
+
+  if (loading) return <div className="loading-spinner">Loading...</div>;
+  if (error) return <div className="error-banner">{error}</div>;
