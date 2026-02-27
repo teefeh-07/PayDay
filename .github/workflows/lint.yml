@@ -14,3 +14,5 @@ jobs:
 
       - run: npm ci
       - run: npx eslint . --ext .ts,.tsx
+
+      - run: npx prettier --check "**/*.{ts,tsx,json,md}"
