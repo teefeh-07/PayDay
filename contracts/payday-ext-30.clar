@@ -5,3 +5,6 @@
 (define-public (claim-vested-tokens (amount uint))
 
   (begin
+
+    (asserts! (> amount u0) (err u111))
+    (ok amount)
