@@ -5,3 +5,6 @@
 (define-public (set-reward-rate (rate uint))
 
   (begin
+
+    (asserts! (<= rate u100) (err u208))
+    (ok rate)
