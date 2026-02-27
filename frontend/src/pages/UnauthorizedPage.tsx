@@ -22,3 +22,10 @@ export const UnauthorizedPage: React.FC<UnauthorizedPageProps> = ({ isAuthentica
 
   if (loading) return <div className="page-loader">Loading...</div>;
   if (error) return <div className="page-error">{error}</div>;
+
+  return (
+    <main className="unauthorizedpage-wrapper">
+      <h1>Unauthorized</h1>
+      <p>403 unauthorized access page</p>
+    </main>
+  );
