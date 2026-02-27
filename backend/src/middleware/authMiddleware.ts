@@ -7,3 +7,6 @@ interface authMiddlewareOptions {
   strict?: boolean;
   timeout?: number;
 }
+
+
+export const authMiddleware = (options: authMiddlewareOptions = { enabled: true }) => {
