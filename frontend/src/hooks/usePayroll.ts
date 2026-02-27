@@ -7,3 +7,11 @@ export interface usePayrollState {
   error: string | null;
   data: any;
 }
+
+
+export function usePayroll() {
+  const [state, setState] = useState<usePayrollState>({
+    loading: false,
+    error: null,
+    data: null,
+  });
