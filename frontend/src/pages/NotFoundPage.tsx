@@ -19,3 +19,6 @@ export const NotFoundPage: React.FC<NotFoundPageProps> = ({ isAuthenticated }) =
   useEffect(() => {
     document.title = 'NotFound | PayDay';
   }, []);
+
+  if (loading) return <div className="page-loader">Loading...</div>;
+  if (error) return <div className="page-error">{error}</div>;
