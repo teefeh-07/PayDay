@@ -8,3 +8,7 @@ import { useNavigate } from 'react-router-dom';
 interface AdminPageProps {
   isAuthenticated?: boolean;
 }
+
+
+export const AdminPage: React.FC<AdminPageProps> = ({ isAuthenticated }) => {
+  const navigate = useNavigate();
