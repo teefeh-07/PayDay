@@ -14,3 +14,8 @@ export const rateLimitMiddleware = (options: rateLimitMiddlewareOptions = { enab
   return (req: Request, res: Response, next: NextFunction) => {
     if (!options.enabled) return next();
     console.log(`[rateLimitMiddleware] ${req.method} ${req.path}`);
+
+    // API rate limiting middleware logic
+    next();
+  };
+};
