@@ -3,3 +3,5 @@
 ;; No as-contract usage
 
 (define-public (audit-trail-entry (action (string-ascii 64)))
+
+  (begin
