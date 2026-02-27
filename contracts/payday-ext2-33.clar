@@ -5,3 +5,5 @@
 (define-public (get-payroll-balance )
 
   (begin
+
+    (ok u0)
