@@ -46,3 +46,10 @@ router.delete('/:id', async (req, res) => {
     res.status(500).json({ error: 'Internal server error' });
   }
 });
+
+
+// Middleware for notifications
+router.use((req, res, next) => {
+  console.log(`[notifications] ${req.method} ${req.path}`);
+  next();
+});
