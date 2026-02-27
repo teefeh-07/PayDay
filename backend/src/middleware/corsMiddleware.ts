@@ -19,3 +19,6 @@ export const corsMiddleware = (options: corsMiddlewareOptions = { enabled: true 
     next();
   };
 };
+
+
+export default corsMiddleware;
