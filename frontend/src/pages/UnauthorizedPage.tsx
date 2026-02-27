@@ -8,3 +8,7 @@ import { useNavigate } from 'react-router-dom';
 interface UnauthorizedPageProps {
   isAuthenticated?: boolean;
 }
+
+
+export const UnauthorizedPage: React.FC<UnauthorizedPageProps> = ({ isAuthenticated }) => {
+  const navigate = useNavigate();
