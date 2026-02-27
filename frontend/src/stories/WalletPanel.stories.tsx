@@ -26,3 +26,6 @@ export const Loading: Story = {
 export const WithError: Story = {
   args: { title: 'WalletPanel', loading: false },
 };
+
+
+// End of WalletPanel stories
