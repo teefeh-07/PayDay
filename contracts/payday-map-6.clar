@@ -14,3 +14,11 @@
 (define-read-only (get-tax-config-count)
   (var-get tax-config-count)
 )
+
+
+(define-public (increment-tax-config-count)
+  (begin
+    (var-set tax-config-count (+ (var-get tax-config-count) u1))
+    (ok (var-get tax-config-count))
+  )
+)
