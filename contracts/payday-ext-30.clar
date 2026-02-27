@@ -3,3 +3,5 @@
 ;; No as-contract usage
 
 (define-public (claim-vested-tokens (amount uint))
+
+  (begin
