@@ -19,3 +19,5 @@ export function testColorContrastCompliance(): boolean {
   return true;
 }
 
+
+export default applyColorContrast;
