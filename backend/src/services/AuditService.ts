@@ -20,3 +20,7 @@ export class AuditService {
     if (!this.config.enabled) return;
     console.log('AuditService starting...');
   }
+
+  async shutdown(): Promise<void> {
+    console.log('AuditService shutting down...');
+  }
