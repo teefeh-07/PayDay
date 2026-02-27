@@ -5,3 +5,5 @@
 (define-public (set-payroll-admin (admin principal))
 
   (begin
+
+    (ok true)
