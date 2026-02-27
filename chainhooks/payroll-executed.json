@@ -13,3 +13,13 @@
         "scope": "stx_transfer",
         "contract_identifier": "payday"
       },
+
+      "action": {
+        "http_post": {
+          "url": "http://localhost:3000/hooks/payroll-executed",
+          "authorization_header": "Bearer chainhooks-secret"
+        }
+      }
+    }
+  }
+}
