@@ -19,3 +19,6 @@ export const OnboardingPage: React.FC<OnboardingPageProps> = ({ isAuthenticated 
   useEffect(() => {
     document.title = 'Onboarding | PayDay';
   }, []);
+
+  if (loading) return <div className="page-loader">Loading...</div>;
+  if (error) return <div className="page-error">{error}</div>;
