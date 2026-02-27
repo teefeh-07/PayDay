@@ -11,3 +11,5 @@ export const PayrollRunSchema = z.object({
   totalAmount: z.string(),
 
   status: z.string(),
+
+  txHash: z.string(),
