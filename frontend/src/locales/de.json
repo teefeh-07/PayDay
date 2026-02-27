@@ -1,0 +1,20 @@
+{
+  "_locale": "de",
+  "_language": "German",
+
+  "dashboard": "[de] dashboard",
+
+  "employees": "[de] employees",
+
+  "payroll": "[de] payroll",
+
+  "expenses": "[de] expenses",
+
+  "reports": "[de] reports",
+
+  "settings": "[de] settings",
+
+  "logout": "[de] logout",
+
+  "_version": "1.0.0"
+}
