@@ -5,3 +5,5 @@
 (define-public (convert-currency (amount uint) (rate uint))
 
   (begin
+
+    (ok (* amount rate))
