@@ -22,3 +22,10 @@ export const LoginPage: React.FC<LoginPageProps> = ({ isAuthenticated }) => {
 
   if (loading) return <div className="page-loader">Loading...</div>;
   if (error) return <div className="page-error">{error}</div>;
+
+  return (
+    <main className="loginpage-wrapper">
+      <h1>Login</h1>
+      <p>Stacks wallet-based login page</p>
+    </main>
+  );
