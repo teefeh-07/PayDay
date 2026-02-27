@@ -10,3 +10,7 @@ interface loggingMiddlewareOptions {
 
 
 export const loggingMiddleware = (options: loggingMiddlewareOptions = { enabled: true }) => {
+
+  return (req: Request, res: Response, next: NextFunction) => {
+    if (!options.enabled) return next();
+    console.log(`[loggingMiddleware] ${req.method} ${req.path}`);
