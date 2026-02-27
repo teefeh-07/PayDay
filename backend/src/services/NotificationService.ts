@@ -6,3 +6,7 @@ export interface NotificationServiceConfig {
   retryAttempts: number;
   timeout: number;
 }
+
+
+export class NotificationService {
+  private config: NotificationServiceConfig;
