@@ -9,3 +9,5 @@ export const DepartmentSchema = z.object({
   name: z.string(),
 
   managerId: z.string(),
+
+  budget: z.string(),
