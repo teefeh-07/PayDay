@@ -9,3 +9,8 @@
 
 
 (define-data-var vesting-schedule-count uint u0)
+
+
+(define-read-only (get-vesting-schedule-count)
+  (var-get vesting-schedule-count)
+)
