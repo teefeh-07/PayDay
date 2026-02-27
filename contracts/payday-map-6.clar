@@ -22,3 +22,8 @@
     (ok (var-get tax-config-count))
   )
 )
+
+
+;; Error constants for tax-config
+(define-constant ERR_NOT_FOUND (err u404))
+(define-constant ERR_UNAUTHORIZED (err u403))
