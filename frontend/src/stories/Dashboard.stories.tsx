@@ -26,3 +26,6 @@ export const Loading: Story = {
 export const WithError: Story = {
   args: { title: 'Dashboard', loading: false },
 };
+
+
+// End of Dashboard stories
