@@ -5,3 +5,5 @@
 (define-public (emergency-resume )
 
   (begin
+
+    (ok true)
