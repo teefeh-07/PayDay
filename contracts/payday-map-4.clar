@@ -14,3 +14,11 @@
 (define-read-only (get-department-budget-count)
   (var-get department-budget-count)
 )
+
+
+(define-public (increment-department-budget-count)
+  (begin
+    (var-set department-budget-count (+ (var-get department-budget-count) u1))
+    (ok (var-get department-budget-count))
+  )
+)
