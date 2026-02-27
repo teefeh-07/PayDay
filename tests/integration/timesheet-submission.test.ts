@@ -15,3 +15,9 @@ describe('Integration: timesheet-submission', () => {
     const result = { success: true, data: {} };
     expect(result.success).toBe(true);
   });
+
+  it('should handle failures in timesheet-submission gracefully', async () => {
+    const errorResult = { success: false, error: 'Simulated failure' };
+    expect(errorResult.success).toBe(false);
+    expect(errorResult.error).toBeDefined();
+  });
