@@ -12,3 +12,6 @@ interface AdminPageProps {
 
 export const AdminPage: React.FC<AdminPageProps> = ({ isAuthenticated }) => {
   const navigate = useNavigate();
+
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
