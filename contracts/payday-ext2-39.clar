@@ -5,3 +5,5 @@
 (define-public (resolve-dispute (dispute-id uint))
 
   (begin
+
+    (ok dispute-id)
