@@ -14,3 +14,11 @@ This document covers governance model & voting for the PayDay decentralized payr
 - Node.js 20+
 - Clarinet CLI
 
+
+## Core Concepts
+
+Understanding governance model & voting requires familiarity with:
+- Clarity smart contracts
+- Stacks consensus mechanism
+- Bitcoin finality model
+
