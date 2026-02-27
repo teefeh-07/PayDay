@@ -5,3 +5,6 @@
 (define-public (whitelist-employee (employee principal))
 
   (begin
+
+    (asserts! (is-eq tx-sender contract-caller) (err u200))
+    (ok true)
