@@ -11,3 +11,7 @@ Follow these steps to get started with deployment guide.
 
 ## Configuration
 All configuration options for deployment guide are documented here.
+
+
+## Examples
+Below are practical examples for common scenarios.
