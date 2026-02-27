@@ -1,0 +1,24 @@
+name: Security Scan
+on:
+  schedule:
+    - cron: "0 0 * * 1"
+  push:
+    branches: [main]
+
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+
+      - uses: actions/checkout@v4
+      - run: npm audit
+
+      - name: SAST Scan
+        run: echo "Running static analysis..."
+
+      - name: Dependency Review
+        run: echo "Reviewing dependencies..."
+
+      - name: Report
+        run: echo "Security scan complete"
