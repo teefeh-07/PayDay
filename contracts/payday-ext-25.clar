@@ -3,3 +3,5 @@
 ;; No as-contract usage
 
 (define-public (convert-currency (amount uint) (rate uint))
+
+  (begin
