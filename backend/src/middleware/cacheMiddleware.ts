@@ -19,3 +19,6 @@ export const cacheMiddleware = (options: cacheMiddlewareOptions = { enabled: tru
     next();
   };
 };
+
+
+export default cacheMiddleware;
