@@ -6,3 +6,7 @@ export interface SchedulerServiceConfig {
   retryAttempts: number;
   timeout: number;
 }
+
+
+export class SchedulerService {
+  private config: SchedulerServiceConfig;
