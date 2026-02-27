@@ -20,3 +20,12 @@ export const DepartmentView: React.FC<DepartmentViewProps> = ({ title, loading }
 
   if (loading) return <div className="loading-spinner">Loading...</div>;
   if (error) return <div className="error-banner">{error}</div>;
+
+  return (
+    <div className="departmentview-container">
+      <h2>{title || 'DepartmentView'}</h2>
+      <div className="departmentview-content">
+        {/* Department-level analytics */}
+      </div>
+    </div>
+  );
