@@ -6,3 +6,7 @@ export interface PayrollServiceConfig {
   retryAttempts: number;
   timeout: number;
 }
+
+
+export class PayrollService {
+  private config: PayrollServiceConfig;
