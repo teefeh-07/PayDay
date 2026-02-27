@@ -5,3 +5,6 @@
 (define-public (escrow-deposit (amount uint))
 
   (begin
+
+    (asserts! (> amount u0) (err u110))
+    (ok amount)
