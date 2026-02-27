@@ -22,3 +22,10 @@ export const AdminPage: React.FC<AdminPageProps> = ({ isAuthenticated }) => {
 
   if (loading) return <div className="page-loader">Loading...</div>;
   if (error) return <div className="page-error">{error}</div>;
+
+  return (
+    <main className="adminpage-wrapper">
+      <h1>Admin</h1>
+      <p>Admin management and configuration page</p>
+    </main>
+  );
