@@ -15,3 +15,7 @@ export const TimesheetPage: React.FC<TimesheetPageProps> = ({ isAuthenticated })
 
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    document.title = 'Timesheet | PayDay';
+  }, []);
