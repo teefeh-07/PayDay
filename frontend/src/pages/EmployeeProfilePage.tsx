@@ -8,3 +8,7 @@ import { useNavigate } from 'react-router-dom';
 interface EmployeeProfilePageProps {
   isAuthenticated?: boolean;
 }
+
+
+export const EmployeeProfilePage: React.FC<EmployeeProfilePageProps> = ({ isAuthenticated }) => {
+  const navigate = useNavigate();
