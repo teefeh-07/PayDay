@@ -13,3 +13,5 @@ export const ExpenseSchema = z.object({
   category: z.string(),
 
   status: z.string(),
+
+  submittedAt: z.string(),
