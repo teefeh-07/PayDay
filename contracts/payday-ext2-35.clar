@@ -3,3 +3,5 @@
 ;; Phase 3 - No as-contract usage
 
 (define-public (set-min-salary (min uint))
+
+  (begin
