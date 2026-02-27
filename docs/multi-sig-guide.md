@@ -14,3 +14,11 @@ This document covers multi-signature operations guide for the PayDay decentraliz
 - Node.js 20+
 - Clarinet CLI
 
+
+## Core Concepts
+
+Understanding multi-signature operations guide requires familiarity with:
+- Clarity smart contracts
+- Stacks consensus mechanism
+- Bitcoin finality model
+
