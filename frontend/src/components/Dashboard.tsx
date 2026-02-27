@@ -17,3 +17,6 @@ export const Dashboard: React.FC<DashboardProps> = ({ title, loading }) => {
     // Fetch data for Dashboard
     console.log('Dashboard mounted');
   }, []);
+
+  if (loading) return <div className="loading-spinner">Loading...</div>;
+  if (error) return <div className="error-banner">{error}</div>;
