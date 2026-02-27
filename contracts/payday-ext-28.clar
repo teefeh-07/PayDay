@@ -3,3 +3,5 @@
 ;; No as-contract usage
 
 (define-public (multi-sig-approve (proposal uint))
+
+  (begin
