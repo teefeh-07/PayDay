@@ -6,3 +6,6 @@ interface DashboardProps {
   title?: string;
   loading?: boolean;
 }
+
+
+export const Dashboard: React.FC<DashboardProps> = ({ title, loading }) => {
