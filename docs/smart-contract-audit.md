@@ -14,3 +14,11 @@ This document covers smart contract audit report for the PayDay decentralized pa
 - Node.js 20+
 - Clarinet CLI
 
+
+## Core Concepts
+
+Understanding smart contract audit report requires familiarity with:
+- Clarity smart contracts
+- Stacks consensus mechanism
+- Bitcoin finality model
+
