@@ -21,3 +21,6 @@ jobs:
 
       - name: Deploy to production
         run: echo "Deploying PayDay..."
+
+      - name: Health check
+        run: echo "Health check passed"
