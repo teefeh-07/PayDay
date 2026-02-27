@@ -29,3 +29,7 @@ export const NotificationCenter: React.FC<NotificationCenterProps> = ({ title, l
       </div>
     </div>
   );
+
+};
+
+export default NotificationCenter;
