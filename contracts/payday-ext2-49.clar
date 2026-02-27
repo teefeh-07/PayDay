@@ -11,3 +11,6 @@
 
   )
 )
+
+;; Event log for set-reward-rate
+(define-data-var last-caller principal tx-sender)
