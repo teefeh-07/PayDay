@@ -25,3 +25,7 @@ Below are practical examples for common scenarios.
 
 ## FAQ
 Frequently asked questions about changelog & release notes.
+
+
+---
+*Last updated: 2026-02-27*
