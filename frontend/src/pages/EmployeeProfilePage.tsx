@@ -15,3 +15,7 @@ export const EmployeeProfilePage: React.FC<EmployeeProfilePageProps> = ({ isAuth
 
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    document.title = 'EmployeeProfile | PayDay';
+  }, []);
