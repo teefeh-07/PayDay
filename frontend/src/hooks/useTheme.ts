@@ -25,3 +25,7 @@ export function useTheme() {
       setState(prev => ({ ...prev, loading: false, error: err.message }));
     }
   }, []);
+
+  useEffect(() => {
+    refresh();
+  }, [refresh]);
