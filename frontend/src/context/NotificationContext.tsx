@@ -11,3 +11,9 @@ interface NotificationContextType {
 
 
 const NotificationContext = createContext<NotificationContextType | undefined>(undefined);
+
+
+export const NotificationContextProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const [data, setData] = useState<any>(null);
