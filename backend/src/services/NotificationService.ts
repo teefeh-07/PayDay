@@ -10,3 +10,8 @@ export interface NotificationServiceConfig {
 
 export class NotificationService {
   private config: NotificationServiceConfig;
+
+  constructor(config: NotificationServiceConfig) {
+    this.config = config;
+    console.log('NotificationService initialized');
+  }
