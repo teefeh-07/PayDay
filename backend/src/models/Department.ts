@@ -7,3 +7,5 @@ export const DepartmentSchema = z.object({
   id: z.string(),
 
   name: z.string(),
+
+  managerId: z.string(),
