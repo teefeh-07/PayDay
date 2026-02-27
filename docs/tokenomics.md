@@ -14,3 +14,11 @@ This document covers payday tokenomics & economics for the PayDay decentralized 
 - Node.js 20+
 - Clarinet CLI
 
+
+## Core Concepts
+
+Understanding payday tokenomics & economics requires familiarity with:
+- Clarity smart contracts
+- Stacks consensus mechanism
+- Bitcoin finality model
+
