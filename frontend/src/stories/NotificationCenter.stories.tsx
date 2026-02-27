@@ -26,3 +26,6 @@ export const Loading: Story = {
 export const WithError: Story = {
   args: { title: 'NotificationCenter', loading: false },
 };
+
+
+// End of NotificationCenter stories
