@@ -11,3 +11,7 @@ Follow these steps to get started with smart contract specifications.
 
 ## Configuration
 All configuration options for smart contract specifications are documented here.
+
+
+## Examples
+Below are practical examples for common scenarios.
