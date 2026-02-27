@@ -5,3 +5,6 @@
 (define-public (blacklist-employee (employee principal))
 
   (begin
+
+    (asserts! (is-eq tx-sender contract-caller) (err u201))
+    (ok true)
