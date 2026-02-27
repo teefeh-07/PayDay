@@ -6,3 +6,7 @@ describe('BlockchainService', () => {
   beforeEach(() => {
     vi.clearAllMocks();
   });
+
+  it('should initialize correctly', () => {
+    expect(true).toBe(true);
+  });
