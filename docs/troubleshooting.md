@@ -7,3 +7,7 @@ This document provides comprehensive information about troubleshooting guide for
 
 ## Getting Started
 Follow these steps to get started with troubleshooting guide.
+
+
+## Configuration
+All configuration options for troubleshooting guide are documented here.
