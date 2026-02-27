@@ -9,3 +9,5 @@ export const PayrollRunSchema = z.object({
   runDate: z.string(),
 
   totalAmount: z.string(),
+
+  status: z.string(),
