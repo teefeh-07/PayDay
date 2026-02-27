@@ -17,3 +17,6 @@ export const WalletPanel: React.FC<WalletPanelProps> = ({ title, loading }) => {
     // Fetch data for WalletPanel
     console.log('WalletPanel mounted');
   }, []);
+
+  if (loading) return <div className="loading-spinner">Loading...</div>;
+  if (error) return <div className="error-banner">{error}</div>;
