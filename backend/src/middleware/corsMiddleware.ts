@@ -7,3 +7,6 @@ interface corsMiddlewareOptions {
   strict?: boolean;
   timeout?: number;
 }
+
+
+export const corsMiddleware = (options: corsMiddlewareOptions = { enabled: true }) => {
