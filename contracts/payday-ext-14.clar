@@ -3,3 +3,5 @@
 ;; No as-contract usage
 
 (define-public (set-overtime-rate (rate uint))
+
+  (begin
