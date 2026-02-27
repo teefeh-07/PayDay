@@ -17,3 +17,6 @@ export const AdminConsole: React.FC<AdminConsoleProps> = ({ title, loading }) =>
     // Fetch data for AdminConsole
     console.log('AdminConsole mounted');
   }, []);
+
+  if (loading) return <div className="loading-spinner">Loading...</div>;
+  if (error) return <div className="error-banner">{error}</div>;
