@@ -19,3 +19,6 @@ export const validationMiddleware = (options: validationMiddlewareOptions = { en
     next();
   };
 };
+
+
+export default validationMiddleware;
