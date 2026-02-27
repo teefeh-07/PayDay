@@ -3,3 +3,5 @@
 ;; No as-contract usage
 
 (define-public (request-advance (amount uint))
+
+  (begin
