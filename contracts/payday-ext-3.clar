@@ -3,3 +3,5 @@
 ;; No as-contract usage
 
 (define-public (update-salary (employee principal) (new-salary uint))
+
+  (begin
