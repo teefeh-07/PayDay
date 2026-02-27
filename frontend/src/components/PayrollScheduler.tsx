@@ -17,3 +17,6 @@ export const PayrollScheduler: React.FC<PayrollSchedulerProps> = ({ title, loadi
     // Fetch data for PayrollScheduler
     console.log('PayrollScheduler mounted');
   }, []);
+
+  if (loading) return <div className="loading-spinner">Loading...</div>;
+  if (error) return <div className="error-banner">{error}</div>;
