@@ -9,3 +9,6 @@ interface ExpenseTrackerProps {
 
 
 export const ExpenseTracker: React.FC<ExpenseTrackerProps> = ({ title, loading }) => {
+
+  const [data, setData] = useState<any[]>([]);
+  const [error, setError] = useState<string | null>(null);
