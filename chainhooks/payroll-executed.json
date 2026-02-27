@@ -1,0 +1,25 @@
+{
+  "chain": "stacks",
+  "name": "payroll-executed",
+
+  "version": 1,
+  "networks": {
+    "devnet": {
+
+      "start_block": 0,
+      "expire_after_occurrence": 0,
+
+      "predicate": {
+        "scope": "stx_transfer",
+        "contract_identifier": "payday"
+      },
+
+      "action": {
+        "http_post": {
+          "url": "http://localhost:3000/hooks/payroll-executed",
+          "authorization_header": "Bearer chainhooks-secret"
+        }
+      }
+    }
+  }
+}
