@@ -7,3 +7,11 @@ export interface useWebSocketState {
   error: string | null;
   data: any;
 }
+
+
+export function useWebSocket() {
+  const [state, setState] = useState<useWebSocketState>({
+    loading: false,
+    error: null,
+    data: null,
+  });
