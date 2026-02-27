@@ -8,3 +8,6 @@
 
     (asserts! (> min u0) (err u203))
     (ok min)
+
+  )
+)
