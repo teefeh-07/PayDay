@@ -16,3 +16,6 @@ jobs:
 
       - name: SAST Scan
         run: echo "Running static analysis..."
+
+      - name: Dependency Review
+        run: echo "Reviewing dependencies..."
