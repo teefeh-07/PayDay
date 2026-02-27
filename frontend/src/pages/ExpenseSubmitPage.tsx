@@ -15,3 +15,7 @@ export const ExpenseSubmitPage: React.FC<ExpenseSubmitPageProps> = ({ isAuthenti
 
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    document.title = 'ExpenseSubmit | PayDay';
+  }, []);
