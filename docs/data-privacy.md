@@ -14,3 +14,11 @@ This document covers data privacy & compliance for the PayDay decentralized payr
 - Node.js 20+
 - Clarinet CLI
 
+
+## Core Concepts
+
+Understanding data privacy & compliance requires familiarity with:
+- Clarity smart contracts
+- Stacks consensus mechanism
+- Bitcoin finality model
+
