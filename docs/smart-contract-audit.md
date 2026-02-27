@@ -36,3 +36,10 @@ Understanding smart contract audit report requires familiarity with:
 - Use multi-sig for treasury operations
 - Monitor transactions with Chainhooks
 
+
+## References
+
+- [Stacks Documentation](https://docs.stacks.co)
+- [Hiro Platform](https://platform.hiro.so)
+- [Clarity Language Reference](https://book.clarity-lang.org)
+
