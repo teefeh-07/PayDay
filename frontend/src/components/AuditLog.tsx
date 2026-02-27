@@ -6,3 +6,6 @@ interface AuditLogProps {
   title?: string;
   loading?: boolean;
 }
+
+
+export const AuditLog: React.FC<AuditLogProps> = ({ title, loading }) => {
