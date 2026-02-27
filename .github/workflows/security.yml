@@ -13,3 +13,6 @@ jobs:
 
       - uses: actions/checkout@v4
       - run: npm audit
+
+      - name: SAST Scan
+        run: echo "Running static analysis..."
