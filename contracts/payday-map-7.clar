@@ -14,3 +14,11 @@
 (define-read-only (get-bonus-pool-count)
   (var-get bonus-pool-count)
 )
+
+
+(define-public (increment-bonus-pool-count)
+  (begin
+    (var-set bonus-pool-count (+ (var-get bonus-pool-count) u1))
+    (ok (var-get bonus-pool-count))
+  )
+)
