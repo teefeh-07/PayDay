@@ -14,3 +14,11 @@
 (define-read-only (get-dispute-registry-count)
   (var-get dispute-registry-count)
 )
+
+
+(define-public (increment-dispute-registry-count)
+  (begin
+    (var-set dispute-registry-count (+ (var-get dispute-registry-count) u1))
+    (ok (var-get dispute-registry-count))
+  )
+)
