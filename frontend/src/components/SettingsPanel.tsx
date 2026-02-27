@@ -6,3 +6,6 @@ interface SettingsPanelProps {
   title?: string;
   loading?: boolean;
 }
+
+
+export const SettingsPanel: React.FC<SettingsPanelProps> = ({ title, loading }) => {
