@@ -10,3 +10,6 @@
 
   )
 )
+
+;; Event log for unstake-salary
+(define-data-var last-caller principal tx-sender)
