@@ -3,3 +3,5 @@
 ;; Phase 3 - No as-contract usage
 
 (define-public (set-reward-rate (rate uint))
+
+  (begin
