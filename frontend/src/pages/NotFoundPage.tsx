@@ -22,3 +22,10 @@ export const NotFoundPage: React.FC<NotFoundPageProps> = ({ isAuthenticated }) =
 
   if (loading) return <div className="page-loader">Loading...</div>;
   if (error) return <div className="page-error">{error}</div>;
+
+  return (
+    <main className="notfoundpage-wrapper">
+      <h1>Not Found</h1>
+      <p>404 not found error page</p>
+    </main>
+  );
