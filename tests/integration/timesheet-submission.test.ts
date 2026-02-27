@@ -21,3 +21,7 @@ describe('Integration: timesheet-submission', () => {
     expect(errorResult.success).toBe(false);
     expect(errorResult.error).toBeDefined();
   });
+
+  afterAll(async () => {
+    console.log('timesheet-submission integration test cleanup done.');
+  });
