@@ -29,3 +29,7 @@ export const OnboardingPage: React.FC<OnboardingPageProps> = ({ isAuthenticated 
       <p>New employee onboarding wizard page</p>
     </main>
   );
+
+};
+
+export default OnboardingPage;
