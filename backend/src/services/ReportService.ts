@@ -20,3 +20,7 @@ export class ReportService {
     if (!this.config.enabled) return;
     console.log('ReportService starting...');
   }
+
+  async shutdown(): Promise<void> {
+    console.log('ReportService shutting down...');
+  }
