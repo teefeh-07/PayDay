@@ -5,3 +5,5 @@
 (define-public (transfer-department (employee principal) (dept (string-ascii 64)))
 
   (begin
+
+    (ok true)
