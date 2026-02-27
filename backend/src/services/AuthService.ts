@@ -20,3 +20,7 @@ export class AuthService {
     if (!this.config.enabled) return;
     console.log('AuthService starting...');
   }
+
+  async shutdown(): Promise<void> {
+    console.log('AuthService shutting down...');
+  }
