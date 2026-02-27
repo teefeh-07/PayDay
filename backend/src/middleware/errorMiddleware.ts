@@ -7,3 +7,6 @@ interface errorMiddlewareOptions {
   strict?: boolean;
   timeout?: number;
 }
+
+
+export const errorMiddleware = (options: errorMiddlewareOptions = { enabled: true }) => {
