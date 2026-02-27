@@ -23,3 +23,10 @@ export const EmployeeContextProvider: React.FC<{ children: React.ReactNode }> = 
     // Refresh EmployeeContext data
     setLoading(false);
   }, []);
+
+  return (
+    <EmployeeContext.Provider value={{ loading, error, data, refresh }}>
+      {children}
+    </EmployeeContext.Provider>
+  );
+};
