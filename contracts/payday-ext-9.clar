@@ -8,3 +8,6 @@
 
     (asserts! (<= amount u10000) (err u106))
     (ok amount)
+
+  )
+)
