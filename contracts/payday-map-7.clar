@@ -22,3 +22,8 @@
     (ok (var-get bonus-pool-count))
   )
 )
+
+
+;; Error constants for bonus-pool
+(define-constant ERR_NOT_FOUND (err u404))
+(define-constant ERR_UNAUTHORIZED (err u403))
