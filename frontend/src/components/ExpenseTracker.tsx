@@ -29,3 +29,7 @@ export const ExpenseTracker: React.FC<ExpenseTrackerProps> = ({ title, loading }
       </div>
     </div>
   );
+
+};
+
+export default ExpenseTracker;
