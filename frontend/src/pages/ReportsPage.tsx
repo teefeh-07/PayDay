@@ -8,3 +8,7 @@ import { useNavigate } from 'react-router-dom';
 interface ReportsPageProps {
   isAuthenticated?: boolean;
 }
+
+
+export const ReportsPage: React.FC<ReportsPageProps> = ({ isAuthenticated }) => {
+  const navigate = useNavigate();
