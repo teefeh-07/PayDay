@@ -15,3 +15,8 @@ export class PayrollService {
     this.config = config;
     console.log('PayrollService initialized');
   }
+
+  async initialize(): Promise<void> {
+    if (!this.config.enabled) return;
+    console.log('PayrollService starting...');
+  }
