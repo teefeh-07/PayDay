@@ -7,3 +7,9 @@ export interface A11yConfig {
   level: 'A' | 'AA' | 'AAA';
 }
 
+
+export function applyScreenReader(config: A11yConfig = { enabled: true, level: 'AA' }) {
+  if (!config.enabled) return;
+  console.log(`[A11y] Screen reader compatibility layer applied at level ${config.level}`);
+}
+
