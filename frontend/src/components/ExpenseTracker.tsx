@@ -6,3 +6,6 @@ interface ExpenseTrackerProps {
   title?: string;
   loading?: boolean;
 }
+
+
+export const ExpenseTracker: React.FC<ExpenseTrackerProps> = ({ title, loading }) => {
