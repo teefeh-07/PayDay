@@ -21,3 +21,7 @@ describe('Integration: report-generation', () => {
     expect(errorResult.success).toBe(false);
     expect(errorResult.error).toBeDefined();
   });
+
+  afterAll(async () => {
+    console.log('report-generation integration test cleanup done.');
+  });
