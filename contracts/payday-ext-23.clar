@@ -5,3 +5,5 @@
 (define-public (audit-trail-entry (action (string-ascii 64)))
 
   (begin
+
+    (ok true)
