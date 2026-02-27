@@ -29,3 +29,7 @@ export const AdminConsole: React.FC<AdminConsoleProps> = ({ title, loading }) =>
       </div>
     </div>
   );
+
+};
+
+export default AdminConsole;
