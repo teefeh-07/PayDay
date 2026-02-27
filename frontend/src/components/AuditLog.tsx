@@ -20,3 +20,12 @@ export const AuditLog: React.FC<AuditLogProps> = ({ title, loading }) => {
 
   if (loading) return <div className="loading-spinner">Loading...</div>;
   if (error) return <div className="error-banner">{error}</div>;
+
+  return (
+    <div className="auditlog-container">
+      <h2>{title || 'AuditLog'}</h2>
+      <div className="auditlog-content">
+        {/* View audit trail and compliance logs */}
+      </div>
+    </div>
+  );
