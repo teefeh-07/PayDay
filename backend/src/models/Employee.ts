@@ -11,3 +11,5 @@ export const EmployeeSchema = z.object({
   name: z.string(),
 
   department: z.string(),
+
+  salary: z.string(),
