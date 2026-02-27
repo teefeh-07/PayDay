@@ -6,3 +6,6 @@
   uint
   { rate: uint, bracket: uint, deduction: uint }
 )
+
+
+(define-data-var tax-config-count uint u0)
