@@ -7,3 +7,6 @@ interface auditMiddlewareOptions {
   strict?: boolean;
   timeout?: number;
 }
+
+
+export const auditMiddleware = (options: auditMiddlewareOptions = { enabled: true }) => {
