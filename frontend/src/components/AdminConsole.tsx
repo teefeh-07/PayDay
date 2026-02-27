@@ -6,3 +6,6 @@ interface AdminConsoleProps {
   title?: string;
   loading?: boolean;
 }
+
+
+export const AdminConsole: React.FC<AdminConsoleProps> = ({ title, loading }) => {
