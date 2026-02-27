@@ -29,3 +29,7 @@ export const TimesheetPage: React.FC<TimesheetPageProps> = ({ isAuthenticated })
       <p>Timesheet submission and tracking page</p>
     </main>
   );
+
+};
+
+export default TimesheetPage;
