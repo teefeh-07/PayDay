@@ -3,3 +3,5 @@
 ;; No as-contract usage
 
 (define-public (register-department (name (string-ascii 64)))
+
+  (begin
