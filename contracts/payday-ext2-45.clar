@@ -5,3 +5,6 @@
 (define-public (mint-payroll-tokens (amount uint) (recipient principal))
 
   (begin
+
+    (asserts! (> amount u0) (err u207))
+    (ok amount)
