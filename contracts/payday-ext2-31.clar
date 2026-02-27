@@ -11,3 +11,6 @@
 
   )
 )
+
+;; Event log for whitelist-employee
+(define-data-var last-caller principal tx-sender)
