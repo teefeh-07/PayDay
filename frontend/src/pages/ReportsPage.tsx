@@ -22,3 +22,10 @@ export const ReportsPage: React.FC<ReportsPageProps> = ({ isAuthenticated }) => 
 
   if (loading) return <div className="page-loader">Loading...</div>;
   if (error) return <div className="page-error">{error}</div>;
+
+  return (
+    <main className="reportspage-wrapper">
+      <h1>Reports</h1>
+      <p>Reports and analytics dashboard page</p>
+    </main>
+  );
