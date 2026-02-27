@@ -23,3 +23,10 @@ export const NotificationContextProvider: React.FC<{ children: React.ReactNode }
     // Refresh NotificationContext data
     setLoading(false);
   }, []);
+
+  return (
+    <NotificationContext.Provider value={{ loading, error, data, refresh }}>
+      {children}
+    </NotificationContext.Provider>
+  );
+};
