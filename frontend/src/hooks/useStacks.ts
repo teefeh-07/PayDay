@@ -29,3 +29,8 @@ export function useStacks() {
   useEffect(() => {
     refresh();
   }, [refresh]);
+
+  return { ...state, refresh };
+}
+
+export default useStacks;
