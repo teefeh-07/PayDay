@@ -20,3 +20,12 @@ export const Dashboard: React.FC<DashboardProps> = ({ title, loading }) => {
 
   if (loading) return <div className="loading-spinner">Loading...</div>;
   if (error) return <div className="error-banner">{error}</div>;
+
+  return (
+    <div className="dashboard-container">
+      <h2>{title || 'Dashboard'}</h2>
+      <div className="dashboard-content">
+        {/* Main dashboard overview with payroll stats */}
+      </div>
+    </div>
+  );
