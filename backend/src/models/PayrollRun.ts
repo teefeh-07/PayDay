@@ -15,3 +15,9 @@ export const PayrollRunSchema = z.object({
   txHash: z.string(),
 
   employeeCount: z.string(),
+
+});
+
+export type PayrollRun = z.infer<typeof PayrollRunSchema>;
+
+export default PayrollRunSchema;
