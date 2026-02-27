@@ -29,3 +29,7 @@ export const ReportGenerator: React.FC<ReportGeneratorProps> = ({ title, loading
       </div>
     </div>
   );
+
+};
+
+export default ReportGenerator;
