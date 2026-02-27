@@ -22,3 +22,8 @@
     (ok (var-get vesting-schedule-count))
   )
 )
+
+
+;; Error constants for vesting-schedule
+(define-constant ERR_NOT_FOUND (err u404))
+(define-constant ERR_UNAUTHORIZED (err u403))
