@@ -8,3 +8,7 @@ import { useNavigate } from 'react-router-dom';
 interface OnboardingPageProps {
   isAuthenticated?: boolean;
 }
+
+
+export const OnboardingPage: React.FC<OnboardingPageProps> = ({ isAuthenticated }) => {
+  const navigate = useNavigate();
