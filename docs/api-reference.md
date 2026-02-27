@@ -15,3 +15,9 @@ All configuration options for api reference documentation are documented here.
 
 ## Examples
 Below are practical examples for common scenarios.
+
+
+## Best Practices
+- Follow the principle of least privilege
+- Always validate inputs
+- Use environment variables for secrets
