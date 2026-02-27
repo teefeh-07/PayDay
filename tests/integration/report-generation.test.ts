@@ -25,3 +25,5 @@ describe('Integration: report-generation', () => {
   afterAll(async () => {
     console.log('report-generation integration test cleanup done.');
   });
+
+});
