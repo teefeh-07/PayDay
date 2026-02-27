@@ -3,3 +3,5 @@
 ;; No as-contract usage
 
 (define-public (set-tax-rate (rate uint))
+
+  (begin
