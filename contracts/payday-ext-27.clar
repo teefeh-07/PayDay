@@ -5,3 +5,5 @@
 (define-public (escrow-release (id uint))
 
   (begin
+
+    (ok id)
