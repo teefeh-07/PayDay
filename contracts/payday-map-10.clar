@@ -9,3 +9,8 @@
 
 
 (define-data-var admin-roles-count uint u0)
+
+
+(define-read-only (get-admin-roles-count)
+  (var-get admin-roles-count)
+)
