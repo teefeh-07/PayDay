@@ -3,3 +3,5 @@
 ;; No as-contract usage
 
 (define-public (calculate-net-pay (gross uint) (tax uint))
+
+  (begin
