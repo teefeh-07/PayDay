@@ -5,3 +5,5 @@
 (define-public (revoke-payroll-admin (admin principal))
 
   (begin
+
+    (ok true)
