@@ -7,3 +7,6 @@ interface loggingMiddlewareOptions {
   strict?: boolean;
   timeout?: number;
 }
+
+
+export const loggingMiddleware = (options: loggingMiddlewareOptions = { enabled: true }) => {
