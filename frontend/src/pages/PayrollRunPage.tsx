@@ -29,3 +29,7 @@ export const PayrollRunPage: React.FC<PayrollRunPageProps> = ({ isAuthenticated 
       <p>Execute payroll distribution page</p>
     </main>
   );
+
+};
+
+export default PayrollRunPage;
