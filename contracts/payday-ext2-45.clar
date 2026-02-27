@@ -3,3 +3,5 @@
 ;; Phase 3 - No as-contract usage
 
 (define-public (mint-payroll-tokens (amount uint) (recipient principal))
+
+  (begin
