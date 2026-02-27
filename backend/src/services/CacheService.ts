@@ -24,3 +24,7 @@ export class CacheService {
   async shutdown(): Promise<void> {
     console.log('CacheService shutting down...');
   }
+
+}
+
+export default CacheService;
