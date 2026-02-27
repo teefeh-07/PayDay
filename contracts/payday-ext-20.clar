@@ -5,3 +5,5 @@
 (define-public (generate-payslip (employee principal) (month uint))
 
   (begin
+
+    (ok month)
