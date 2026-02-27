@@ -29,3 +29,7 @@ export const EmployeeList: React.FC<EmployeeListProps> = ({ title, loading }) =>
       </div>
     </div>
   );
+
+};
+
+export default EmployeeList;
