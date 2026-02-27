@@ -5,3 +5,6 @@
 (define-public (set-pay-schedule (interval uint))
 
   (begin
+
+    (asserts! (> interval u0) (err u104))
+    (ok interval)
