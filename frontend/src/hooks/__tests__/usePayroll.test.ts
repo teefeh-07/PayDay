@@ -25,3 +25,5 @@ describe('usePayroll', () => {
     expect(state.error).toBeDefined();
     expect(state.data).toBeNull();
   });
+
+});
