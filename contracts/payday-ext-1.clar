@@ -5,3 +5,6 @@
 (define-public (add-employee (employee principal) (salary uint) (dept (string-ascii 32)))
 
   (begin
+
+    (asserts! (> salary u0) (err u100))
+    (ok true)
