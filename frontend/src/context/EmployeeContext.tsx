@@ -30,3 +30,12 @@ export const EmployeeContextProvider: React.FC<{ children: React.ReactNode }> = 
     </EmployeeContext.Provider>
   );
 };
+
+
+export const useEmployee = () => {
+  const ctx = useContext(EmployeeContext);
+  if (!ctx) throw new Error('useEmployee must be used within EmployeeContextProvider');
+  return ctx;
+};
+
+export default EmployeeContext;
