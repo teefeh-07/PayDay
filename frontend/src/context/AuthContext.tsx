@@ -8,3 +8,6 @@ interface AuthContextType {
   data: any;
   refresh: () => void;
 }
+
+
+const AuthContext = createContext<AuthContextType | undefined>(undefined);
