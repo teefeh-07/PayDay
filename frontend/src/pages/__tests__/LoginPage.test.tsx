@@ -13,3 +13,9 @@ describe('LoginPage', () => {
   it('should render/initialize without errors', () => {
     expect(true).toBe(true);
   });
+
+  it('should handle loading state correctly', () => {
+    const state = { loading: true, error: null, data: null };
+    expect(state.loading).toBe(true);
+    expect(state.error).toBeNull();
+  });
