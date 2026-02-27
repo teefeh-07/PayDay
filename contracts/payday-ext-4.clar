@@ -5,3 +5,5 @@
 (define-public (get-employee-info (employee principal))
 
   (begin
+
+    (ok { salary: u0, dept: "engineering" })
