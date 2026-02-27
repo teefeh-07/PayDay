@@ -3,3 +3,5 @@
 ;; No as-contract usage
 
 (define-public (approve-timesheet (employee principal) (hours uint))
+
+  (begin
