@@ -9,3 +9,6 @@ interface AuditLogProps {
 
 
 export const AuditLog: React.FC<AuditLogProps> = ({ title, loading }) => {
+
+  const [data, setData] = useState<any[]>([]);
+  const [error, setError] = useState<string | null>(null);
