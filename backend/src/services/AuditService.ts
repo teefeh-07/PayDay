@@ -10,3 +10,8 @@ export interface AuditServiceConfig {
 
 export class AuditService {
   private config: AuditServiceConfig;
+
+  constructor(config: AuditServiceConfig) {
+    this.config = config;
+    console.log('AuditService initialized');
+  }
