@@ -19,3 +19,6 @@ export const ReportsPage: React.FC<ReportsPageProps> = ({ isAuthenticated }) => 
   useEffect(() => {
     document.title = 'Reports | PayDay';
   }, []);
+
+  if (loading) return <div className="page-loader">Loading...</div>;
+  if (error) return <div className="page-error">{error}</div>;
