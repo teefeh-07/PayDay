@@ -17,3 +17,6 @@ export const ReportGenerator: React.FC<ReportGeneratorProps> = ({ title, loading
     // Fetch data for ReportGenerator
     console.log('ReportGenerator mounted');
   }, []);
+
+  if (loading) return <div className="loading-spinner">Loading...</div>;
+  if (error) return <div className="error-banner">{error}</div>;
