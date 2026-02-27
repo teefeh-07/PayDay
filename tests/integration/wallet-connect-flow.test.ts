@@ -25,3 +25,5 @@ describe('Integration: wallet-connect-flow', () => {
   afterAll(async () => {
     console.log('wallet-connect-flow integration test cleanup done.');
   });
+
+});
