@@ -5,3 +5,6 @@
 (define-public (burn-tokens (amount uint))
 
   (begin
+
+    (asserts! (> amount u0) (err u206))
+    (ok amount)
