@@ -11,3 +11,8 @@ const meta: Meta<typeof EmployeeList> = {
 
 export default meta;
 type Story = StoryObj<typeof meta>;
+
+
+export const Default: Story = {
+  args: { title: 'EmployeeList', loading: false },
+};
