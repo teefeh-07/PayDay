@@ -29,3 +29,7 @@ export const SettingsPanel: React.FC<SettingsPanelProps> = ({ title, loading }) 
       </div>
     </div>
   );
+
+};
+
+export default SettingsPanel;
