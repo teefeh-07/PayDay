@@ -8,3 +8,9 @@ Describe what this PR does.
 - [ ] Breaking change
 - [ ] Documentation
 
+
+## Testing
+- [ ] Unit tests pass
+- [ ] Integration tests pass
+- [ ] Manual testing done
+
