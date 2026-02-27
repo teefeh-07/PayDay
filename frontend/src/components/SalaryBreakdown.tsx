@@ -17,3 +17,6 @@ export const SalaryBreakdown: React.FC<SalaryBreakdownProps> = ({ title, loading
     // Fetch data for SalaryBreakdown
     console.log('SalaryBreakdown mounted');
   }, []);
+
+  if (loading) return <div className="loading-spinner">Loading...</div>;
+  if (error) return <div className="error-banner">{error}</div>;
