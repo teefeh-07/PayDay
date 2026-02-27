@@ -20,3 +20,12 @@ export const ExpenseTracker: React.FC<ExpenseTrackerProps> = ({ title, loading }
 
   if (loading) return <div className="loading-spinner">Loading...</div>;
   if (error) return <div className="error-banner">{error}</div>;
+
+  return (
+    <div className="expensetracker-container">
+      <h2>{title || 'ExpenseTracker'}</h2>
+      <div className="expensetracker-content">
+        {/* Track and manage employee expenses */}
+      </div>
+    </div>
+  );
