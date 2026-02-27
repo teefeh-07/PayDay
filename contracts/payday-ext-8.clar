@@ -3,3 +3,5 @@
 ;; No as-contract usage
 
 (define-public (calculate-bonus (base uint) (multiplier uint))
+
+  (begin
