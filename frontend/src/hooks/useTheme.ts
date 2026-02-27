@@ -7,3 +7,11 @@ export interface useThemeState {
   error: string | null;
   data: any;
 }
+
+
+export function useTheme() {
+  const [state, setState] = useState<useThemeState>({
+    loading: false,
+    error: null,
+    data: null,
+  });
