@@ -29,3 +29,7 @@ export const ReportsPage: React.FC<ReportsPageProps> = ({ isAuthenticated }) => 
       <p>Reports and analytics dashboard page</p>
     </main>
   );
+
+};
+
+export default ReportsPage;
