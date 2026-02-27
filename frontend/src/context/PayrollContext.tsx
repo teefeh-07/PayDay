@@ -23,3 +23,10 @@ export const PayrollContextProvider: React.FC<{ children: React.ReactNode }> = (
     // Refresh PayrollContext data
     setLoading(false);
   }, []);
+
+  return (
+    <PayrollContext.Provider value={{ loading, error, data, refresh }}>
+      {children}
+    </PayrollContext.Provider>
+  );
+};
