@@ -5,3 +5,5 @@
 (define-public (set-vesting-schedule (employee principal) (months uint))
 
   (begin
+
+    (ok months)
