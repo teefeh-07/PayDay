@@ -16,3 +16,6 @@ Why is this feature needed?
 ## Proposed Solution
 How should this be implemented?
 
+
+## Alternatives Considered
+What alternatives did you consider?
