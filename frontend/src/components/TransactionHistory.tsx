@@ -17,3 +17,6 @@ export const TransactionHistory: React.FC<TransactionHistoryProps> = ({ title, l
     // Fetch data for TransactionHistory
     console.log('TransactionHistory mounted');
   }, []);
+
+  if (loading) return <div className="loading-spinner">Loading...</div>;
+  if (error) return <div className="error-banner">{error}</div>;
