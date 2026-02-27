@@ -6,3 +6,6 @@ interface SalaryBreakdownProps {
   title?: string;
   loading?: boolean;
 }
+
+
+export const SalaryBreakdown: React.FC<SalaryBreakdownProps> = ({ title, loading }) => {
