@@ -5,3 +5,5 @@
 (define-public (approve-expense (id uint))
 
   (begin
+
+    (ok id)
