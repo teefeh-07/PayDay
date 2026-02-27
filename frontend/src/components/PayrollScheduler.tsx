@@ -29,3 +29,7 @@ export const PayrollScheduler: React.FC<PayrollSchedulerProps> = ({ title, loadi
       </div>
     </div>
   );
+
+};
+
+export default PayrollScheduler;
