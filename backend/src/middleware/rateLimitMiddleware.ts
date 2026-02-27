@@ -19,3 +19,6 @@ export const rateLimitMiddleware = (options: rateLimitMiddlewareOptions = { enab
     next();
   };
 };
+
+
+export default rateLimitMiddleware;
