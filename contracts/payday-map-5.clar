@@ -6,3 +6,6 @@
   principal
   { total: uint, vested: uint, cliff: uint }
 )
+
+
+(define-data-var vesting-schedule-count uint u0)
