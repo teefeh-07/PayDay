@@ -7,3 +7,6 @@
   (begin
 
     (ok { salary: u0, dept: "engineering" })
+
+  )
+)
