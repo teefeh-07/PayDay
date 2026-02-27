@@ -29,3 +29,8 @@ export function useAuth() {
   useEffect(() => {
     refresh();
   }, [refresh]);
+
+  return { ...state, refresh };
+}
+
+export default useAuth;
