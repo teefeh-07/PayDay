@@ -25,3 +25,5 @@ describe('Integration: audit-trail', () => {
   afterAll(async () => {
     console.log('audit-trail integration test cleanup done.');
   });
+
+});
