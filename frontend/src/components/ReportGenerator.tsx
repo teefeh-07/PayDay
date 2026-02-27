@@ -12,3 +12,8 @@ export const ReportGenerator: React.FC<ReportGeneratorProps> = ({ title, loading
 
   const [data, setData] = useState<any[]>([]);
   const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    // Fetch data for ReportGenerator
+    console.log('ReportGenerator mounted');
+  }, []);
