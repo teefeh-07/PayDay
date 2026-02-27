@@ -29,3 +29,10 @@ Understanding hiro wallet setup instructions requires familiarity with:
 2. Follow the configuration steps below
 3. Test in devnet before mainnet deployment
 
+
+## Security Considerations
+
+- Always audit contracts before production use
+- Use multi-sig for treasury operations
+- Monitor transactions with Chainhooks
+
