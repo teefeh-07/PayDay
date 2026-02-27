@@ -15,3 +15,8 @@ export class SchedulerService {
     this.config = config;
     console.log('SchedulerService initialized');
   }
+
+  async initialize(): Promise<void> {
+    if (!this.config.enabled) return;
+    console.log('SchedulerService starting...');
+  }
