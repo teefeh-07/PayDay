@@ -9,3 +9,5 @@ export const EmployeeSchema = z.object({
   walletAddress: z.string(),
 
   name: z.string(),
+
+  department: z.string(),
