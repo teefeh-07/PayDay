@@ -20,3 +20,12 @@ export const EmployeeList: React.FC<EmployeeListProps> = ({ title, loading }) =>
 
   if (loading) return <div className="loading-spinner">Loading...</div>;
   if (error) return <div className="error-banner">{error}</div>;
+
+  return (
+    <div className="employeelist-container">
+      <h2>{title || 'EmployeeList'}</h2>
+      <div className="employeelist-content">
+        {/* List and manage all employees */}
+      </div>
+    </div>
+  );
