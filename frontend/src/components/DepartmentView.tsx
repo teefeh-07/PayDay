@@ -29,3 +29,7 @@ export const DepartmentView: React.FC<DepartmentViewProps> = ({ title, loading }
       </div>
     </div>
   );
+
+};
+
+export default DepartmentView;
