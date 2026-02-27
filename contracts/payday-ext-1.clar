@@ -8,3 +8,6 @@
 
     (asserts! (> salary u0) (err u100))
     (ok true)
+
+  )
+)
