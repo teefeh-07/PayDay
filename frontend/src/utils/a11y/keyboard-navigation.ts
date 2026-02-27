@@ -19,3 +19,5 @@ export function testKeyboardNavigationCompliance(): boolean {
   return true;
 }
 
+
+export default applyKeyboardNavigation;
