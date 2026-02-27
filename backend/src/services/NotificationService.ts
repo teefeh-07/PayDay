@@ -20,3 +20,7 @@ export class NotificationService {
     if (!this.config.enabled) return;
     console.log('NotificationService starting...');
   }
+
+  async shutdown(): Promise<void> {
+    console.log('NotificationService shutting down...');
+  }
