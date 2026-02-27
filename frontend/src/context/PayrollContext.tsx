@@ -30,3 +30,12 @@ export const PayrollContextProvider: React.FC<{ children: React.ReactNode }> = (
     </PayrollContext.Provider>
   );
 };
+
+
+export const usePayroll = () => {
+  const ctx = useContext(PayrollContext);
+  if (!ctx) throw new Error('usePayroll must be used within PayrollContextProvider');
+  return ctx;
+};
+
+export default PayrollContext;
