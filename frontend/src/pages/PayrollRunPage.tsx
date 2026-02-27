@@ -15,3 +15,7 @@ export const PayrollRunPage: React.FC<PayrollRunPageProps> = ({ isAuthenticated 
 
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    document.title = 'PayrollRun | PayDay';
+  }, []);
