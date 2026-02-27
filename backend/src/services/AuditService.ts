@@ -6,3 +6,7 @@ export interface AuditServiceConfig {
   retryAttempts: number;
   timeout: number;
 }
+
+
+export class AuditService {
+  private config: AuditServiceConfig;
