@@ -8,3 +8,6 @@ interface ThemeContextType {
   data: any;
   refresh: () => void;
 }
+
+
+const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
