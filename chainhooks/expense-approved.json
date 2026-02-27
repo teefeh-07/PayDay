@@ -8,3 +8,8 @@
 
       "start_block": 0,
       "expire_after_occurrence": 0,
+
+      "predicate": {
+        "scope": "contract_call",
+        "contract_identifier": "payday"
+      },
