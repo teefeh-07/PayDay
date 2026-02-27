@@ -24,3 +24,7 @@ export class ReportService {
   async shutdown(): Promise<void> {
     console.log('ReportService shutting down...');
   }
+
+}
+
+export default ReportService;
