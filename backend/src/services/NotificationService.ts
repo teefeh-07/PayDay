@@ -15,3 +15,8 @@ export class NotificationService {
     this.config = config;
     console.log('NotificationService initialized');
   }
+
+  async initialize(): Promise<void> {
+    if (!this.config.enabled) return;
+    console.log('NotificationService starting...');
+  }
