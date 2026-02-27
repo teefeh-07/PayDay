@@ -9,3 +9,6 @@ interface DashboardProps {
 
 
 export const Dashboard: React.FC<DashboardProps> = ({ title, loading }) => {
+
+  const [data, setData] = useState<any[]>([]);
+  const [error, setError] = useState<string | null>(null);
