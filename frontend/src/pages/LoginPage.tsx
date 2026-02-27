@@ -15,3 +15,7 @@ export const LoginPage: React.FC<LoginPageProps> = ({ isAuthenticated }) => {
 
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    document.title = 'Login | PayDay';
+  }, []);
