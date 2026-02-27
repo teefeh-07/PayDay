@@ -4,3 +4,8 @@ import { describe, it, expect, beforeAll, afterAll } from 'vitest';
 
 // On-chain transaction execution flow
 describe('Integration: blockchain-tx', () => {
+
+  beforeAll(async () => {
+    // Setup integration environment
+    console.log('Setting up blockchain-tx integration test...');
+  });
