@@ -29,3 +29,7 @@ export const LoginPage: React.FC<LoginPageProps> = ({ isAuthenticated }) => {
       <p>Stacks wallet-based login page</p>
     </main>
   );
+
+};
+
+export default LoginPage;
