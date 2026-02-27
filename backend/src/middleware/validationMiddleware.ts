@@ -7,3 +7,6 @@ interface validationMiddlewareOptions {
   strict?: boolean;
   timeout?: number;
 }
+
+
+export const validationMiddleware = (options: validationMiddlewareOptions = { enabled: true }) => {
