@@ -12,3 +12,8 @@ export const SalaryBreakdown: React.FC<SalaryBreakdownProps> = ({ title, loading
 
   const [data, setData] = useState<any[]>([]);
   const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    // Fetch data for SalaryBreakdown
+    console.log('SalaryBreakdown mounted');
+  }, []);
