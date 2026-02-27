@@ -7,3 +7,11 @@ export interface useNotificationsState {
   error: string | null;
   data: any;
 }
+
+
+export function useNotifications() {
+  const [state, setState] = useState<useNotificationsState>({
+    loading: false,
+    error: null,
+    data: null,
+  });
