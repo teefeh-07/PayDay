@@ -1,0 +1,23 @@
+// AuditLog Database Model
+import { z } from 'zod';
+
+
+export const AuditLogSchema = z.object({
+
+  id: z.string(),
+
+  action: z.string(),
+
+  userId: z.string(),
+
+  details: z.string(),
+
+  timestamp: z.string(),
+
+  ipAddress: z.string(),
+
+});
+
+export type AuditLog = z.infer<typeof AuditLogSchema>;
+
+export default AuditLogSchema;
