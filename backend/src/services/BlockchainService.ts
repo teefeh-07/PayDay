@@ -6,3 +6,7 @@ export interface BlockchainServiceConfig {
   retryAttempts: number;
   timeout: number;
 }
+
+
+export class BlockchainService {
+  private config: BlockchainServiceConfig;
