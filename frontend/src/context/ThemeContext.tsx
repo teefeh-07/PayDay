@@ -23,3 +23,10 @@ export const ThemeContextProvider: React.FC<{ children: React.ReactNode }> = ({ 
     // Refresh ThemeContext data
     setLoading(false);
   }, []);
+
+  return (
+    <ThemeContext.Provider value={{ loading, error, data, refresh }}>
+      {children}
+    </ThemeContext.Provider>
+  );
+};
