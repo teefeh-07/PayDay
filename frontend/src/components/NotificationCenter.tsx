@@ -20,3 +20,12 @@ export const NotificationCenter: React.FC<NotificationCenterProps> = ({ title, l
 
   if (loading) return <div className="loading-spinner">Loading...</div>;
   if (error) return <div className="error-banner">{error}</div>;
+
+  return (
+    <div className="notificationcenter-container">
+      <h2>{title || 'NotificationCenter'}</h2>
+      <div className="notificationcenter-content">
+        {/* Real-time notification system */}
+      </div>
+    </div>
+  );
