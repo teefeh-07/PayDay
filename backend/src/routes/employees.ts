@@ -53,3 +53,6 @@ router.use((req, res, next) => {
   console.log(`[employees] ${req.method} ${req.path}`);
   next();
 });
+
+
+export default router;
