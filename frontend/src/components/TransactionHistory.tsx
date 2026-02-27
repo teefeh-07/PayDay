@@ -29,3 +29,7 @@ export const TransactionHistory: React.FC<TransactionHistoryProps> = ({ title, l
       </div>
     </div>
   );
+
+};
+
+export default TransactionHistory;
