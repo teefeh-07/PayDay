@@ -21,3 +21,8 @@ export const Default: Story = {
 export const Loading: Story = {
   args: { title: 'ReportGenerator', loading: true },
 };
+
+
+export const WithError: Story = {
+  args: { title: 'ReportGenerator', loading: false },
+};
