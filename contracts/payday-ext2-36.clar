@@ -5,3 +5,6 @@
 (define-public (set-max-salary (max uint))
 
   (begin
+
+    (asserts! (> max u0) (err u204))
+    (ok max)
