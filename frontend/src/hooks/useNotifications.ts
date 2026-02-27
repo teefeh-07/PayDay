@@ -29,3 +29,8 @@ export function useNotifications() {
   useEffect(() => {
     refresh();
   }, [refresh]);
+
+  return { ...state, refresh };
+}
+
+export default useNotifications;
