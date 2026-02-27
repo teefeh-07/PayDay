@@ -9,3 +9,6 @@ interface ReportGeneratorProps {
 
 
 export const ReportGenerator: React.FC<ReportGeneratorProps> = ({ title, loading }) => {
+
+  const [data, setData] = useState<any[]>([]);
+  const [error, setError] = useState<string | null>(null);
