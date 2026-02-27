@@ -6,3 +6,6 @@ interface DepartmentViewProps {
   title?: string;
   loading?: boolean;
 }
+
+
+export const DepartmentView: React.FC<DepartmentViewProps> = ({ title, loading }) => {
