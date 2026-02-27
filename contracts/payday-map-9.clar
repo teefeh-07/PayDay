@@ -27,3 +27,6 @@
 ;; Error constants for dispute-registry
 (define-constant ERR_NOT_FOUND (err u404))
 (define-constant ERR_UNAUTHORIZED (err u403))
+
+
+;; Map initialized successfully for dispute-registry
