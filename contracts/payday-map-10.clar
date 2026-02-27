@@ -6,3 +6,6 @@
   principal
   { role: (string-ascii 32), active: bool, since: uint }
 )
+
+
+(define-data-var admin-roles-count uint u0)
