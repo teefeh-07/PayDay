@@ -5,3 +5,5 @@
 (define-public (claim-rewards )
 
   (begin
+
+    (ok true)
