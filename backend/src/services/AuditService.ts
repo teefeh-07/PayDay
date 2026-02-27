@@ -15,3 +15,8 @@ export class AuditService {
     this.config = config;
     console.log('AuditService initialized');
   }
+
+  async initialize(): Promise<void> {
+    if (!this.config.enabled) return;
+    console.log('AuditService starting...');
+  }
