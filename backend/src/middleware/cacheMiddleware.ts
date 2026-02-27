@@ -10,3 +10,7 @@ interface cacheMiddlewareOptions {
 
 
 export const cacheMiddleware = (options: cacheMiddlewareOptions = { enabled: true }) => {
+
+  return (req: Request, res: Response, next: NextFunction) => {
+    if (!options.enabled) return next();
+    console.log(`[cacheMiddleware] ${req.method} ${req.path}`);
