@@ -29,3 +29,8 @@ export function useWebSocket() {
   useEffect(() => {
     refresh();
   }, [refresh]);
+
+  return { ...state, refresh };
+}
+
+export default useWebSocket;
