@@ -9,3 +9,8 @@
 
 
 (define-data-var tax-config-count uint u0)
+
+
+(define-read-only (get-tax-config-count)
+  (var-get tax-config-count)
+)
