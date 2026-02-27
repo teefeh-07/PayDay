@@ -23,3 +23,10 @@ export const BlockchainContextProvider: React.FC<{ children: React.ReactNode }> 
     // Refresh BlockchainContext data
     setLoading(false);
   }, []);
+
+  return (
+    <BlockchainContext.Provider value={{ loading, error, data, refresh }}>
+      {children}
+    </BlockchainContext.Provider>
+  );
+};
