@@ -15,3 +15,9 @@ export const ExpenseSchema = z.object({
   status: z.string(),
 
   submittedAt: z.string(),
+
+});
+
+export type Expense = z.infer<typeof ExpenseSchema>;
+
+export default ExpenseSchema;
