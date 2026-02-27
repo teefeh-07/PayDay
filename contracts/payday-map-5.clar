@@ -14,3 +14,11 @@
 (define-read-only (get-vesting-schedule-count)
   (var-get vesting-schedule-count)
 )
+
+
+(define-public (increment-vesting-schedule-count)
+  (begin
+    (var-set vesting-schedule-count (+ (var-get vesting-schedule-count) u1))
+    (ok (var-get vesting-schedule-count))
+  )
+)
