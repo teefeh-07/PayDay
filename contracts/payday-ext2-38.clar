@@ -3,3 +3,5 @@
 ;; Phase 3 - No as-contract usage
 
 (define-public (dispute-payment (pay-id uint) (reason (string-ascii 128)))
+
+  (begin
