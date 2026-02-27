@@ -18,3 +18,6 @@ A clear description of the bug.
 ## Expected Behavior
 What should happen?
 
+
+## Screenshots
+If applicable, add screenshots.
