@@ -10,3 +10,6 @@
 
   )
 )
+
+;; Event log for resolve-dispute
+(define-data-var last-caller principal tx-sender)
