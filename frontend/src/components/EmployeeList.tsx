@@ -9,3 +9,6 @@ interface EmployeeListProps {
 
 
 export const EmployeeList: React.FC<EmployeeListProps> = ({ title, loading }) => {
+
+  const [data, setData] = useState<any[]>([]);
+  const [error, setError] = useState<string | null>(null);
