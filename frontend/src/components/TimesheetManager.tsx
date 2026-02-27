@@ -29,3 +29,7 @@ export const TimesheetManager: React.FC<TimesheetManagerProps> = ({ title, loadi
       </div>
     </div>
   );
+
+};
+
+export default TimesheetManager;
