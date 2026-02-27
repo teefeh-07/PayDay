@@ -26,3 +26,6 @@ export const Loading: Story = {
 export const WithError: Story = {
   args: { title: 'EmployeeList', loading: false },
 };
+
+
+// End of EmployeeList stories
