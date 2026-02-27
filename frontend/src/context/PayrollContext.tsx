@@ -8,3 +8,6 @@ interface PayrollContextType {
   data: any;
   refresh: () => void;
 }
+
+
+const PayrollContext = createContext<PayrollContextType | undefined>(undefined);
