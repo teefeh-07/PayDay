@@ -5,3 +5,5 @@
 (define-public (multi-sig-approve (proposal uint))
 
   (begin
+
+    (ok proposal)
