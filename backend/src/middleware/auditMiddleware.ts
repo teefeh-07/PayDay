@@ -10,3 +10,7 @@ interface auditMiddlewareOptions {
 
 
 export const auditMiddleware = (options: auditMiddlewareOptions = { enabled: true }) => {
+
+  return (req: Request, res: Response, next: NextFunction) => {
+    if (!options.enabled) return next();
+    console.log(`[auditMiddleware] ${req.method} ${req.path}`);
