@@ -9,3 +9,8 @@
 
 
 (define-data-var dispute-registry-count uint u0)
+
+
+(define-read-only (get-dispute-registry-count)
+  (var-get dispute-registry-count)
+)
