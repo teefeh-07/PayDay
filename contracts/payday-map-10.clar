@@ -14,3 +14,11 @@
 (define-read-only (get-admin-roles-count)
   (var-get admin-roles-count)
 )
+
+
+(define-public (increment-admin-roles-count)
+  (begin
+    (var-set admin-roles-count (+ (var-get admin-roles-count) u1))
+    (ok (var-get admin-roles-count))
+  )
+)
