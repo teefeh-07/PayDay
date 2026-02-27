@@ -29,3 +29,8 @@ export function useTheme() {
   useEffect(() => {
     refresh();
   }, [refresh]);
+
+  return { ...state, refresh };
+}
+
+export default useTheme;
