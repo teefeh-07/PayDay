@@ -20,3 +20,7 @@ export class BlockchainService {
     if (!this.config.enabled) return;
     console.log('BlockchainService starting...');
   }
+
+  async shutdown(): Promise<void> {
+    console.log('BlockchainService shutting down...');
+  }
