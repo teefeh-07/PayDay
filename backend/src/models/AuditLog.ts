@@ -11,3 +11,5 @@ export const AuditLogSchema = z.object({
   userId: z.string(),
 
   details: z.string(),
+
+  timestamp: z.string(),
