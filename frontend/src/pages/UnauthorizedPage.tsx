@@ -19,3 +19,6 @@ export const UnauthorizedPage: React.FC<UnauthorizedPageProps> = ({ isAuthentica
   useEffect(() => {
     document.title = 'Unauthorized | PayDay';
   }, []);
+
+  if (loading) return <div className="page-loader">Loading...</div>;
+  if (error) return <div className="page-error">{error}</div>;
