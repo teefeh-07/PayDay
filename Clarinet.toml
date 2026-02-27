@@ -209,3 +209,9 @@ epoch = "3.3"
 path = "contracts/payday-ext2-33.clar"
 clarity_version = 4
 epoch = "3.3"
+
+
+[contracts.payday-ext2-34]
+path = "contracts/payday-ext2-34.clar"
+clarity_version = 4
+epoch = "3.3"
