@@ -9,3 +9,8 @@
 
 
 (define-data-var bonus-pool-count uint u0)
+
+
+(define-read-only (get-bonus-pool-count)
+  (var-get bonus-pool-count)
+)
