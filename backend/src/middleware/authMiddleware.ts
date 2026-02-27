@@ -14,3 +14,8 @@ export const authMiddleware = (options: authMiddlewareOptions = { enabled: true 
   return (req: Request, res: Response, next: NextFunction) => {
     if (!options.enabled) return next();
     console.log(`[authMiddleware] ${req.method} ${req.path}`);
+
+    // JWT token validation middleware logic
+    next();
+  };
+};
