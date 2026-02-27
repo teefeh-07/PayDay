@@ -6,3 +6,7 @@ export interface ReportServiceConfig {
   retryAttempts: number;
   timeout: number;
 }
+
+
+export class ReportService {
+  private config: ReportServiceConfig;
