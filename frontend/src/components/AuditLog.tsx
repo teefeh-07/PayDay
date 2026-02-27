@@ -29,3 +29,7 @@ export const AuditLog: React.FC<AuditLogProps> = ({ title, loading }) => {
       </div>
     </div>
   );
+
+};
+
+export default AuditLog;
