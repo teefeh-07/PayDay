@@ -17,3 +17,9 @@ export const EmployeeContextProvider: React.FC<{ children: React.ReactNode }> = 
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [data, setData] = useState<any>(null);
+
+  const refresh = useCallback(() => {
+    setLoading(true);
+    // Refresh EmployeeContext data
+    setLoading(false);
+  }, []);
