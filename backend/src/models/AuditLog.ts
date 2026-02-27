@@ -13,3 +13,5 @@ export const AuditLogSchema = z.object({
   details: z.string(),
 
   timestamp: z.string(),
+
+  ipAddress: z.string(),
