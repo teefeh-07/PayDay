@@ -8,3 +8,7 @@ import { useNavigate } from 'react-router-dom';
 interface PayrollRunPageProps {
   isAuthenticated?: boolean;
 }
+
+
+export const PayrollRunPage: React.FC<PayrollRunPageProps> = ({ isAuthenticated }) => {
+  const navigate = useNavigate();
