@@ -17,3 +17,6 @@ export const ExpenseTracker: React.FC<ExpenseTrackerProps> = ({ title, loading }
     // Fetch data for ExpenseTracker
     console.log('ExpenseTracker mounted');
   }, []);
+
+  if (loading) return <div className="loading-spinner">Loading...</div>;
+  if (error) return <div className="error-banner">{error}</div>;
