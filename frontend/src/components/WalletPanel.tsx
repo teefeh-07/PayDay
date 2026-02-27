@@ -9,3 +9,6 @@ interface WalletPanelProps {
 
 
 export const WalletPanel: React.FC<WalletPanelProps> = ({ title, loading }) => {
+
+  const [data, setData] = useState<any[]>([]);
+  const [error, setError] = useState<string | null>(null);
