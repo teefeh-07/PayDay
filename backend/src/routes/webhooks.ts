@@ -53,3 +53,6 @@ router.use((req, res, next) => {
   console.log(`[webhooks] ${req.method} ${req.path}`);
   next();
 });
+
+
+export default router;
