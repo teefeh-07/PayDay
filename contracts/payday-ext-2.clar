@@ -5,3 +5,6 @@
 (define-public (remove-employee (employee principal))
 
   (begin
+
+    (asserts! (is-eq tx-sender employee) (err u101))
+    (ok true)
