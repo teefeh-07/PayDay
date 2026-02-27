@@ -7,3 +7,5 @@ export const ExpenseSchema = z.object({
   id: z.string(),
 
   employeeId: z.string(),
+
+  amount: z.string(),
