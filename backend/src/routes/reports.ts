@@ -35,3 +35,14 @@ router.put('/:id', async (req, res) => {
     res.status(500).json({ error: 'Internal server error' });
   }
 });
+
+
+// DELETE /reports/:id
+router.delete('/:id', async (req, res) => {
+  try {
+    const { id } = req.params;
+    res.json({ status: 'deleted', id });
+  } catch (err) {
+    res.status(500).json({ error: 'Internal server error' });
+  }
+});
