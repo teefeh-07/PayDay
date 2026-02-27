@@ -20,3 +20,5 @@ describe('expense-routes', () => {
     expect(result).toHaveProperty('status');
     expect(result.data).toBeInstanceOf(Array);
   });
+
+});
