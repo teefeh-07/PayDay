@@ -3,3 +3,5 @@
 ;; No as-contract usage
 
 (define-public (freeze-payroll (reason (string-ascii 128)))
+
+  (begin
