@@ -29,3 +29,7 @@ export const WalletPanel: React.FC<WalletPanelProps> = ({ title, loading }) => {
       </div>
     </div>
   );
+
+};
+
+export default WalletPanel;
