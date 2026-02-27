@@ -11,3 +11,5 @@ export const DepartmentSchema = z.object({
   managerId: z.string(),
 
   budget: z.string(),
+
+  headcount: z.string(),
