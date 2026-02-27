@@ -11,3 +11,6 @@
 
   )
 )
+
+;; Event log for set-min-salary
+(define-data-var last-caller principal tx-sender)
