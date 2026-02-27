@@ -11,3 +11,7 @@ Follow these steps to get started with security model & best practices.
 
 ## Configuration
 All configuration options for security model & best practices are documented here.
+
+
+## Examples
+Below are practical examples for common scenarios.
