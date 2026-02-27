@@ -12,3 +12,8 @@ export const EmployeeOnboarding: React.FC<EmployeeOnboardingProps> = ({ title, l
 
   const [data, setData] = useState<any[]>([]);
   const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    // Fetch data for EmployeeOnboarding
+    console.log('EmployeeOnboarding mounted');
+  }, []);
