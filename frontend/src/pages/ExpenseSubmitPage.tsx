@@ -19,3 +19,6 @@ export const ExpenseSubmitPage: React.FC<ExpenseSubmitPageProps> = ({ isAuthenti
   useEffect(() => {
     document.title = 'ExpenseSubmit | PayDay';
   }, []);
+
+  if (loading) return <div className="page-loader">Loading...</div>;
+  if (error) return <div className="page-error">{error}</div>;
