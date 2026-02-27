@@ -5,3 +5,6 @@
   "version": 1,
   "networks": {
     "devnet": {
+
+      "start_block": 0,
+      "expire_after_occurrence": 0,
