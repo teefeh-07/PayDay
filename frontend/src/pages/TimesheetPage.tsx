@@ -12,3 +12,6 @@ interface TimesheetPageProps {
 
 export const TimesheetPage: React.FC<TimesheetPageProps> = ({ isAuthenticated }) => {
   const navigate = useNavigate();
+
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
