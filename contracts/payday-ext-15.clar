@@ -5,3 +5,5 @@
 (define-public (log-attendance (employee principal) (day uint))
 
   (begin
+
+    (ok day)
