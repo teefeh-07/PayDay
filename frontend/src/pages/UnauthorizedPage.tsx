@@ -29,3 +29,7 @@ export const UnauthorizedPage: React.FC<UnauthorizedPageProps> = ({ isAuthentica
       <p>403 unauthorized access page</p>
     </main>
   );
+
+};
+
+export default UnauthorizedPage;
