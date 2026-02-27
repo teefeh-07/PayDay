@@ -3,3 +3,5 @@
 ;; No as-contract usage
 
 (define-public (set-benefits (employee principal) (plan uint))
+
+  (begin
