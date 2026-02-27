@@ -21,3 +21,7 @@ describe('Integration: employee-lifecycle', () => {
     expect(errorResult.success).toBe(false);
     expect(errorResult.error).toBeDefined();
   });
+
+  afterAll(async () => {
+    console.log('employee-lifecycle integration test cleanup done.');
+  });
