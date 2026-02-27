@@ -6,3 +6,6 @@ interface ReportGeneratorProps {
   title?: string;
   loading?: boolean;
 }
+
+
+export const ReportGenerator: React.FC<ReportGeneratorProps> = ({ title, loading }) => {
