@@ -15,3 +15,9 @@ export const EmployeeSchema = z.object({
   salary: z.string(),
 
   startDate: z.string(),
+
+});
+
+export type Employee = z.infer<typeof EmployeeSchema>;
+
+export default EmployeeSchema;
