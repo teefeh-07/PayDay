@@ -19,3 +19,5 @@ export function testFocusManagementCompliance(): boolean {
   return true;
 }
 
+
+export default applyFocusManagement;
