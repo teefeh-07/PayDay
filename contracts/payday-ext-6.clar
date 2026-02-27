@@ -3,3 +3,5 @@
 ;; No as-contract usage
 
 (define-public (set-pay-schedule (interval uint))
+
+  (begin
