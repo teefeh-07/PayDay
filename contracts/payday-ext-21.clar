@@ -5,3 +5,5 @@
 (define-public (freeze-payroll (reason (string-ascii 128)))
 
   (begin
+
+    (ok true)
