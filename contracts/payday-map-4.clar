@@ -6,3 +6,6 @@
   (string-ascii 64)
   { total: uint, spent: uint, remaining: uint }
 )
+
+
+(define-data-var department-budget-count uint u0)
