@@ -11,3 +11,6 @@
 
   )
 )
+
+;; Event log for mint-payroll-tokens
+(define-data-var last-caller principal tx-sender)
