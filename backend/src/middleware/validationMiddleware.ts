@@ -10,3 +10,7 @@ interface validationMiddlewareOptions {
 
 
 export const validationMiddleware = (options: validationMiddlewareOptions = { enabled: true }) => {
+
+  return (req: Request, res: Response, next: NextFunction) => {
+    if (!options.enabled) return next();
+    console.log(`[validationMiddleware] ${req.method} ${req.path}`);
