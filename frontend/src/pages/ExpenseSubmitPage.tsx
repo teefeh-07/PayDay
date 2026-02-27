@@ -22,3 +22,10 @@ export const ExpenseSubmitPage: React.FC<ExpenseSubmitPageProps> = ({ isAuthenti
 
   if (loading) return <div className="page-loader">Loading...</div>;
   if (error) return <div className="page-error">{error}</div>;
+
+  return (
+    <main className="expensesubmitpage-wrapper">
+      <h1>Expense Submit</h1>
+      <p>Expense submission form page</p>
+    </main>
+  );
