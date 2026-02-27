@@ -10,3 +10,8 @@ export interface CacheServiceConfig {
 
 export class CacheService {
   private config: CacheServiceConfig;
+
+  constructor(config: CacheServiceConfig) {
+    this.config = config;
+    console.log('CacheService initialized');
+  }
