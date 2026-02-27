@@ -14,3 +14,11 @@
 (define-read-only (get-employee-registry-count)
   (var-get employee-registry-count)
 )
+
+
+(define-public (increment-employee-registry-count)
+  (begin
+    (var-set employee-registry-count (+ (var-get employee-registry-count) u1))
+    (ok (var-get employee-registry-count))
+  )
+)
