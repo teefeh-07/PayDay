@@ -29,3 +29,8 @@ export function usePayroll() {
   useEffect(() => {
     refresh();
   }, [refresh]);
+
+  return { ...state, refresh };
+}
+
+export default usePayroll;
