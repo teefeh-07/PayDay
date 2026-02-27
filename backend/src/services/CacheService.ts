@@ -20,3 +20,7 @@ export class CacheService {
     if (!this.config.enabled) return;
     console.log('CacheService starting...');
   }
+
+  async shutdown(): Promise<void> {
+    console.log('CacheService shutting down...');
+  }
