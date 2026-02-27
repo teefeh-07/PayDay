@@ -6,3 +6,6 @@
   uint
   { employee: principal, status: (string-ascii 32), amount: uint }
 )
+
+
+(define-data-var dispute-registry-count uint u0)
