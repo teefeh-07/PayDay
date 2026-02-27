@@ -12,3 +12,6 @@ interface ExpenseSubmitPageProps {
 
 export const ExpenseSubmitPage: React.FC<ExpenseSubmitPageProps> = ({ isAuthenticated }) => {
   const navigate = useNavigate();
+
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
