@@ -13,3 +13,9 @@ export const DepartmentSchema = z.object({
   budget: z.string(),
 
   headcount: z.string(),
+
+});
+
+export type Department = z.infer<typeof DepartmentSchema>;
+
+export default DepartmentSchema;
