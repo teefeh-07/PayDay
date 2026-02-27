@@ -9,3 +9,8 @@
 
 
 (define-data-var payroll-schedule-count uint u0)
+
+
+(define-read-only (get-payroll-schedule-count)
+  (var-get payroll-schedule-count)
+)
