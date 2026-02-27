@@ -10,3 +10,6 @@
 
   )
 )
+
+;; Event log for stake-salary
+(define-data-var last-caller principal tx-sender)
