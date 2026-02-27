@@ -29,3 +29,7 @@ export const EmployeeOnboarding: React.FC<EmployeeOnboardingProps> = ({ title, l
       </div>
     </div>
   );
+
+};
+
+export default EmployeeOnboarding;
