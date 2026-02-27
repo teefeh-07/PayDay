@@ -10,3 +10,8 @@ export interface PayrollServiceConfig {
 
 export class PayrollService {
   private config: PayrollServiceConfig;
+
+  constructor(config: PayrollServiceConfig) {
+    this.config = config;
+    console.log('PayrollService initialized');
+  }
