@@ -22,3 +22,8 @@
     (ok (var-get employee-registry-count))
   )
 )
+
+
+;; Error constants for employee-registry
+(define-constant ERR_NOT_FOUND (err u404))
+(define-constant ERR_UNAUTHORIZED (err u403))
