@@ -20,3 +20,7 @@ export class PayrollService {
     if (!this.config.enabled) return;
     console.log('PayrollService starting...');
   }
+
+  async shutdown(): Promise<void> {
+    console.log('PayrollService shutting down...');
+  }
