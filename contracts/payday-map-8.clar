@@ -6,3 +6,6 @@
   { employee: principal, day: uint }
   { present: bool, hours: uint }
 )
+
+
+(define-data-var attendance-log-count uint u0)
