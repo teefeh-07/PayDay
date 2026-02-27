@@ -7,3 +7,5 @@ export const EmployeeSchema = z.object({
   id: z.string(),
 
   walletAddress: z.string(),
+
+  name: z.string(),
