@@ -15,3 +15,8 @@ export class BlockchainService {
     this.config = config;
     console.log('BlockchainService initialized');
   }
+
+  async initialize(): Promise<void> {
+    if (!this.config.enabled) return;
+    console.log('BlockchainService starting...');
+  }
