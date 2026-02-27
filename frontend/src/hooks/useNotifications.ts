@@ -25,3 +25,7 @@ export function useNotifications() {
       setState(prev => ({ ...prev, loading: false, error: err.message }));
     }
   }, []);
+
+  useEffect(() => {
+    refresh();
+  }, [refresh]);
