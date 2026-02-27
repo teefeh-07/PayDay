@@ -7,3 +7,6 @@ interface rateLimitMiddlewareOptions {
   strict?: boolean;
   timeout?: number;
 }
+
+
+export const rateLimitMiddleware = (options: rateLimitMiddlewareOptions = { enabled: true }) => {
