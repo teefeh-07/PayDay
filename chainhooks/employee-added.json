@@ -1,0 +1,25 @@
+{
+  "chain": "stacks",
+  "name": "employee-added",
+
+  "version": 1,
+  "networks": {
+    "devnet": {
+
+      "start_block": 0,
+      "expire_after_occurrence": 0,
+
+      "predicate": {
+        "scope": "contract_call",
+        "contract_identifier": "payday"
+      },
+
+      "action": {
+        "http_post": {
+          "url": "http://localhost:3000/hooks/employee-added",
+          "authorization_header": "Bearer chainhooks-secret"
+        }
+      }
+    }
+  }
+}
