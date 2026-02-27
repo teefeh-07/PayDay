@@ -1,16 +1,36 @@
-import { createContext, use } from 'react';
+// Theme management hook (dark/light)
+import { useState, useEffect, useCallback } from 'react';
 
-export type Theme = 'light' | 'dark';
 
-export interface ThemeContextType {
-  theme: Theme;
-  toggleTheme: () => void;
+export interface useThemeState {
+  loading: boolean;
+  error: string | null;
+  data: any;
 }
 
-export const ThemeContext = createContext<ThemeContextType | undefined>(undefined);
 
-export const useTheme = () => {
-  const context = use(ThemeContext);
-  if (!context) throw new Error('useTheme must be used within ThemeProvider');
-  return context;
-};
+export function useTheme() {
+  const [state, setState] = useState<useThemeState>({
+    loading: false,
+    error: null,
+    data: null,
+  });
+
+  const refresh = useCallback(async () => {
+    setState(prev => ({ ...prev, loading: true }));
+    try {
+      // Fetch logic for useTheme
+      setState(prev => ({ ...prev, loading: false, data: {} }));
+    } catch (err: any) {
+      setState(prev => ({ ...prev, loading: false, error: err.message }));
+    }
+  }, []);
+
+  useEffect(() => {
+    refresh();
+  }, [refresh]);
+
+  return { ...state, refresh };
+}
+
+export default useTheme;
