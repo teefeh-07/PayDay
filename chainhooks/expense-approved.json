@@ -13,3 +13,13 @@
         "scope": "contract_call",
         "contract_identifier": "payday"
       },
+
+      "action": {
+        "http_post": {
+          "url": "http://localhost:3000/hooks/expense-approved",
+          "authorization_header": "Bearer chainhooks-secret"
+        }
+      }
+    }
+  }
+}
