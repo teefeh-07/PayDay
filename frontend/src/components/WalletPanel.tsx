@@ -6,3 +6,6 @@ interface WalletPanelProps {
   title?: string;
   loading?: boolean;
 }
+
+
+export const WalletPanel: React.FC<WalletPanelProps> = ({ title, loading }) => {
