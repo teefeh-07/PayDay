@@ -25,3 +25,5 @@ describe('PayrollContext', () => {
     expect(state.error).toBeDefined();
     expect(state.data).toBeNull();
   });
+
+});
