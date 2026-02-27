@@ -12,3 +12,8 @@ export const AuditLog: React.FC<AuditLogProps> = ({ title, loading }) => {
 
   const [data, setData] = useState<any[]>([]);
   const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    // Fetch data for AuditLog
+    console.log('AuditLog mounted');
+  }, []);
