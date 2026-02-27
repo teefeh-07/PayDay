@@ -22,3 +22,8 @@
     (ok (var-get attendance-log-count))
   )
 )
+
+
+;; Error constants for attendance-log
+(define-constant ERR_NOT_FOUND (err u404))
+(define-constant ERR_UNAUTHORIZED (err u403))
