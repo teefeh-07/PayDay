@@ -9,3 +9,6 @@ interface EmployeeOnboardingProps {
 
 
 export const EmployeeOnboarding: React.FC<EmployeeOnboardingProps> = ({ title, loading }) => {
+
+  const [data, setData] = useState<any[]>([]);
+  const [error, setError] = useState<string | null>(null);
