@@ -3,3 +3,5 @@
 ;; No as-contract usage
 
 (define-public (escrow-release (id uint))
+
+  (begin
