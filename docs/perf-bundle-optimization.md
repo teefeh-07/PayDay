@@ -8,3 +8,10 @@ Describe the performance bottleneck being addressed by bundle-optimization.
 ## Solution
 Tree-shake unused dependencies and split chunks
 
+
+## Implementation
+```ts
+// bundle-optimization implementation example
+console.log('bundle-optimization applied');
+```
+
