@@ -21,3 +21,7 @@ describe('Integration: blockchain-tx', () => {
     expect(errorResult.success).toBe(false);
     expect(errorResult.error).toBeDefined();
   });
+
+  afterAll(async () => {
+    console.log('blockchain-tx integration test cleanup done.');
+  });
