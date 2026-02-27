@@ -19,3 +19,5 @@ export function testScreenReaderCompliance(): boolean {
   return true;
 }
 
+
+export default applyScreenReader;
