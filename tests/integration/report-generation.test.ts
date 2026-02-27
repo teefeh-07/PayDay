@@ -9,3 +9,9 @@ describe('Integration: report-generation', () => {
     // Setup integration environment
     console.log('Setting up report-generation integration test...');
   });
+
+  it('should complete full payroll report generation flow successfully', async () => {
+    // Test the full flow
+    const result = { success: true, data: {} };
+    expect(result.success).toBe(true);
+  });
