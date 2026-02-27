@@ -8,3 +8,6 @@ interface EmployeeContextType {
   data: any;
   refresh: () => void;
 }
+
+
+const EmployeeContext = createContext<EmployeeContextType | undefined>(undefined);
