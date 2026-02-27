@@ -1,0 +1,20 @@
+{
+  "_locale": "fr",
+  "_language": "French",
+
+  "dashboard": "[fr] dashboard",
+
+  "employees": "[fr] employees",
+
+  "payroll": "[fr] payroll",
+
+  "expenses": "[fr] expenses",
+
+  "reports": "[fr] reports",
+
+  "settings": "[fr] settings",
+
+  "logout": "[fr] logout",
+
+  "_version": "1.0.0"
+}
