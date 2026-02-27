@@ -14,3 +14,11 @@ This document covers stacks blockchain integration guide for the PayDay decentra
 - Node.js 20+
 - Clarinet CLI
 
+
+## Core Concepts
+
+Understanding stacks blockchain integration guide requires familiarity with:
+- Clarity smart contracts
+- Stacks consensus mechanism
+- Bitcoin finality model
+
