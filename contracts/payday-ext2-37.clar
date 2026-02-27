@@ -10,3 +10,6 @@
 
   )
 )
+
+;; Event log for get-pay-history
+(define-data-var last-caller principal tx-sender)
