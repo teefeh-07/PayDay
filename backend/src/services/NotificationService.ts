@@ -24,3 +24,7 @@ export class NotificationService {
   async shutdown(): Promise<void> {
     console.log('NotificationService shutting down...');
   }
+
+}
+
+export default NotificationService;
