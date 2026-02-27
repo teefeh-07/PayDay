@@ -20,3 +20,12 @@ export const WalletPanel: React.FC<WalletPanelProps> = ({ title, loading }) => {
 
   if (loading) return <div className="loading-spinner">Loading...</div>;
   if (error) return <div className="error-banner">{error}</div>;
+
+  return (
+    <div className="walletpanel-container">
+      <h2>{title || 'WalletPanel'}</h2>
+      <div className="walletpanel-content">
+        {/* Stacks wallet connection panel */}
+      </div>
+    </div>
+  );
