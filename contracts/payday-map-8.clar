@@ -9,3 +9,8 @@
 
 
 (define-data-var attendance-log-count uint u0)
+
+
+(define-read-only (get-attendance-log-count)
+  (var-get attendance-log-count)
+)
