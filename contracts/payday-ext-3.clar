@@ -8,3 +8,6 @@
 
     (asserts! (> new-salary u0) (err u102))
     (ok new-salary)
+
+  )
+)
