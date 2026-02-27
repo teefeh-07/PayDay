@@ -17,3 +17,6 @@ export const SettingsPanel: React.FC<SettingsPanelProps> = ({ title, loading }) 
     // Fetch data for SettingsPanel
     console.log('SettingsPanel mounted');
   }, []);
+
+  if (loading) return <div className="loading-spinner">Loading...</div>;
+  if (error) return <div className="error-banner">{error}</div>;
