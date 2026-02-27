@@ -9,3 +9,6 @@ interface AdminConsoleProps {
 
 
 export const AdminConsole: React.FC<AdminConsoleProps> = ({ title, loading }) => {
+
+  const [data, setData] = useState<any[]>([]);
+  const [error, setError] = useState<string | null>(null);
