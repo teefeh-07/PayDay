@@ -9,3 +9,6 @@ interface SettingsPanelProps {
 
 
 export const SettingsPanel: React.FC<SettingsPanelProps> = ({ title, loading }) => {
+
+  const [data, setData] = useState<any[]>([]);
+  const [error, setError] = useState<string | null>(null);
