@@ -4,3 +4,9 @@ on:
     - cron: "0 0 * * 1"
   push:
     branches: [main]
+
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
