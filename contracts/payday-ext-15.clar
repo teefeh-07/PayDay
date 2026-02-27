@@ -3,3 +3,5 @@
 ;; No as-contract usage
 
 (define-public (log-attendance (employee principal) (day uint))
+
+  (begin
