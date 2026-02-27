@@ -11,3 +11,7 @@ Follow these steps to get started with testing strategy & coverage.
 
 ## Configuration
 All configuration options for testing strategy & coverage are documented here.
+
+
+## Examples
+Below are practical examples for common scenarios.
