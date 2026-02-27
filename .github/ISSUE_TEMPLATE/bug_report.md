@@ -14,3 +14,7 @@ A clear description of the bug.
 2. Click...
 3. See error
 
+
+## Expected Behavior
+What should happen?
+
