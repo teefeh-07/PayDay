@@ -10,3 +10,8 @@ export interface SchedulerServiceConfig {
 
 export class SchedulerService {
   private config: SchedulerServiceConfig;
+
+  constructor(config: SchedulerServiceConfig) {
+    this.config = config;
+    console.log('SchedulerService initialized');
+  }
