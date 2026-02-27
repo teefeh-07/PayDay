@@ -10,3 +10,8 @@ export interface ReportServiceConfig {
 
 export class ReportService {
   private config: ReportServiceConfig;
+
+  constructor(config: ReportServiceConfig) {
+    this.config = config;
+    console.log('ReportService initialized');
+  }
