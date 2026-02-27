@@ -1,0 +1,5 @@
+name: Deploy PayDay
+on:
+  workflow_run:
+    workflows: ["PayDay CI"]
+    types: [completed]
