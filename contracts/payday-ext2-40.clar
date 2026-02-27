@@ -10,3 +10,6 @@
 
   )
 )
+
+;; Event log for set-payroll-admin
+(define-data-var last-caller principal tx-sender)
