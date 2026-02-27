@@ -6,3 +6,6 @@
   uint
   { amount: uint, distributed: bool, cycle: uint }
 )
+
+
+(define-data-var bonus-pool-count uint u0)
