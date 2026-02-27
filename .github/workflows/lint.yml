@@ -16,3 +16,5 @@ jobs:
       - run: npx eslint . --ext .ts,.tsx
 
       - run: npx prettier --check "**/*.{ts,tsx,json,md}"
+
+      - run: echo "All lint checks passed!"
