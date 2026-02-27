@@ -30,3 +30,12 @@ export const BlockchainContextProvider: React.FC<{ children: React.ReactNode }> 
     </BlockchainContext.Provider>
   );
 };
+
+
+export const useBlockchain = () => {
+  const ctx = useContext(BlockchainContext);
+  if (!ctx) throw new Error('useBlockchain must be used within BlockchainContextProvider');
+  return ctx;
+};
+
+export default BlockchainContext;
