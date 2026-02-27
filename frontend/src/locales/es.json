@@ -1,0 +1,20 @@
+{
+  "_locale": "es",
+  "_language": "Spanish",
+
+  "dashboard": "[es] dashboard",
+
+  "employees": "[es] employees",
+
+  "payroll": "[es] payroll",
+
+  "expenses": "[es] expenses",
+
+  "reports": "[es] reports",
+
+  "settings": "[es] settings",
+
+  "logout": "[es] logout",
+
+  "_version": "1.0.0"
+}
