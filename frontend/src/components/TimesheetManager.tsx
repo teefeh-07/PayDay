@@ -20,3 +20,12 @@ export const TimesheetManager: React.FC<TimesheetManagerProps> = ({ title, loadi
 
   if (loading) return <div className="loading-spinner">Loading...</div>;
   if (error) return <div className="error-banner">{error}</div>;
+
+  return (
+    <div className="timesheetmanager-container">
+      <h2>{title || 'TimesheetManager'}</h2>
+      <div className="timesheetmanager-content">
+        {/* Employee timesheet management */}
+      </div>
+    </div>
+  );
