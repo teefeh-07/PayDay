@@ -25,3 +25,5 @@ describe('SchedulerService', () => {
     expect(state.error).toBeDefined();
     expect(state.data).toBeNull();
   });
+
+});
