@@ -5,3 +5,6 @@
 (define-public (dispute-payment (pay-id uint) (reason (string-ascii 128)))
 
   (begin
+
+    (asserts! (> pay-id u0) (err u205))
+    (ok pay-id)
