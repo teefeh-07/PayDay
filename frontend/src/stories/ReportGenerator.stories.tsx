@@ -26,3 +26,6 @@ export const Loading: Story = {
 export const WithError: Story = {
   args: { title: 'ReportGenerator', loading: false },
 };
+
+
+// End of ReportGenerator stories
