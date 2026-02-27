@@ -25,3 +25,5 @@ describe('Integration: payroll-flow', () => {
   afterAll(async () => {
     console.log('payroll-flow integration test cleanup done.');
   });
+
+});
