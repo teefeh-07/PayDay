@@ -10,3 +10,7 @@ interface errorMiddlewareOptions {
 
 
 export const errorMiddleware = (options: errorMiddlewareOptions = { enabled: true }) => {
+
+  return (req: Request, res: Response, next: NextFunction) => {
+    if (!options.enabled) return next();
+    console.log(`[errorMiddleware] ${req.method} ${req.path}`);
