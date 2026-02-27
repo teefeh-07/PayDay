@@ -12,3 +12,6 @@ interface ReportsPageProps {
 
 export const ReportsPage: React.FC<ReportsPageProps> = ({ isAuthenticated }) => {
   const navigate = useNavigate();
+
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
