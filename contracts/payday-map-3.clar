@@ -14,3 +14,11 @@
 (define-read-only (get-expense-ledger-count)
   (var-get expense-ledger-count)
 )
+
+
+(define-public (increment-expense-ledger-count)
+  (begin
+    (var-set expense-ledger-count (+ (var-get expense-ledger-count) u1))
+    (ok (var-get expense-ledger-count))
+  )
+)
