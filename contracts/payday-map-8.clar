@@ -14,3 +14,11 @@
 (define-read-only (get-attendance-log-count)
   (var-get attendance-log-count)
 )
+
+
+(define-public (increment-attendance-log-count)
+  (begin
+    (var-set attendance-log-count (+ (var-get attendance-log-count) u1))
+    (ok (var-get attendance-log-count))
+  )
+)
