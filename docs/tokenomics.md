@@ -43,3 +43,6 @@ Understanding payday tokenomics & economics requires familiarity with:
 - [Hiro Platform](https://platform.hiro.so)
 - [Clarity Language Reference](https://book.clarity-lang.org)
 
+
+---
+*PayDay Platform — Phase 3 Docs — Last updated: 2026-02-27*
