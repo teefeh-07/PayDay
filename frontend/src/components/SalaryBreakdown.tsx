@@ -29,3 +29,7 @@ export const SalaryBreakdown: React.FC<SalaryBreakdownProps> = ({ title, loading
       </div>
     </div>
   );
+
+};
+
+export default SalaryBreakdown;
