@@ -5,3 +5,5 @@
 (define-public (stake-salary (amount uint) (duration uint))
 
   (begin
+
+    (ok (* amount duration))
