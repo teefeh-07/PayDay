@@ -5,3 +5,5 @@
 (define-public (set-benefits (employee principal) (plan uint))
 
   (begin
+
+    (ok plan)
