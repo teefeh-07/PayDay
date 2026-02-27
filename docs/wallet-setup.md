@@ -22,3 +22,10 @@ Understanding hiro wallet setup instructions requires familiarity with:
 - Stacks consensus mechanism
 - Bitcoin finality model
 
+
+## Step-by-Step Guide
+
+1. Review the prerequisites above
+2. Follow the configuration steps below
+3. Test in devnet before mainnet deployment
+
