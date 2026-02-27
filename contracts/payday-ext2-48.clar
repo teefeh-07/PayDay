@@ -10,3 +10,6 @@
 
   )
 )
+
+;; Event log for get-staking-rewards
+(define-data-var last-caller principal tx-sender)
