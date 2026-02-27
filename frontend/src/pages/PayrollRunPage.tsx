@@ -22,3 +22,10 @@ export const PayrollRunPage: React.FC<PayrollRunPageProps> = ({ isAuthenticated 
 
   if (loading) return <div className="page-loader">Loading...</div>;
   if (error) return <div className="page-error">{error}</div>;
+
+  return (
+    <main className="payrollrunpage-wrapper">
+      <h1>Payroll Run</h1>
+      <p>Execute payroll distribution page</p>
+    </main>
+  );
