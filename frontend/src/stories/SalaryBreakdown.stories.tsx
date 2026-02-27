@@ -16,3 +16,8 @@ type Story = StoryObj<typeof meta>;
 export const Default: Story = {
   args: { title: 'SalaryBreakdown', loading: false },
 };
+
+
+export const Loading: Story = {
+  args: { title: 'SalaryBreakdown', loading: true },
+};
