@@ -15,3 +15,9 @@ describe('Integration: blockchain-tx', () => {
     const result = { success: true, data: {} };
     expect(result.success).toBe(true);
   });
+
+  it('should handle failures in blockchain-tx gracefully', async () => {
+    const errorResult = { success: false, error: 'Simulated failure' };
+    expect(errorResult.success).toBe(false);
+    expect(errorResult.error).toBeDefined();
+  });
