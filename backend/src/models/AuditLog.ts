@@ -15,3 +15,9 @@ export const AuditLogSchema = z.object({
   timestamp: z.string(),
 
   ipAddress: z.string(),
+
+});
+
+export type AuditLog = z.infer<typeof AuditLogSchema>;
+
+export default AuditLogSchema;
