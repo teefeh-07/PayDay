@@ -21,3 +21,6 @@ console.log('contract-call-batch applied');
 |---|---|---|
 | 100ms | 30ms | 70% |
 
+
+---
+*Optimization applied and benchmarked on 2026-02-27*
