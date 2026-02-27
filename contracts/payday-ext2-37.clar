@@ -7,3 +7,6 @@
   (begin
 
     (ok { paid: u0, month: month })
+
+  )
+)
