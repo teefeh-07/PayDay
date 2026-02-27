@@ -11,3 +11,9 @@ interface BlockchainContextType {
 
 
 const BlockchainContext = createContext<BlockchainContextType | undefined>(undefined);
+
+
+export const BlockchainContextProvider: React.FC<{ children: React.ReactNode }> = ({ children }) => {
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
+  const [data, setData] = useState<any>(null);
