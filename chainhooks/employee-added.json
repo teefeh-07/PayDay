@@ -1,3 +1,7 @@
 {
   "chain": "stacks",
   "name": "employee-added",
+
+  "version": 1,
+  "networks": {
+    "devnet": {
