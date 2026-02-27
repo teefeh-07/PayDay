@@ -20,3 +20,12 @@ export const EmployeeOnboarding: React.FC<EmployeeOnboardingProps> = ({ title, l
 
   if (loading) return <div className="loading-spinner">Loading...</div>;
   if (error) return <div className="error-banner">{error}</div>;
+
+  return (
+    <div className="employeeonboarding-container">
+      <h2>{title || 'EmployeeOnboarding'}</h2>
+      <div className="employeeonboarding-content">
+        {/* New employee onboarding flow */}
+      </div>
+    </div>
+  );
