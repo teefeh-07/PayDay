@@ -11,3 +11,8 @@ const meta: Meta<typeof ReportGenerator> = {
 
 export default meta;
 type Story = StoryObj<typeof meta>;
+
+
+export const Default: Story = {
+  args: { title: 'ReportGenerator', loading: false },
+};
