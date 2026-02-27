@@ -20,3 +20,5 @@ describe('SettingsPanel', () => {
     expect(result).toHaveProperty('status');
     expect(result.data).toBeInstanceOf(Array);
   });
+
+});
