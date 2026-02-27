@@ -8,3 +8,6 @@
 
     (asserts! (<= rate u100) (err u208))
     (ok rate)
+
+  )
+)
