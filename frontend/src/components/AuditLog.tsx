@@ -17,3 +17,6 @@ export const AuditLog: React.FC<AuditLogProps> = ({ title, loading }) => {
     // Fetch data for AuditLog
     console.log('AuditLog mounted');
   }, []);
+
+  if (loading) return <div className="loading-spinner">Loading...</div>;
+  if (error) return <div className="error-banner">{error}</div>;
