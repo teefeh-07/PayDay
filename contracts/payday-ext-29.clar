@@ -3,3 +3,5 @@
 ;; No as-contract usage
 
 (define-public (set-vesting-schedule (employee principal) (months uint))
+
+  (begin
