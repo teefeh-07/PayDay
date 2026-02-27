@@ -5,3 +5,5 @@
 (define-public (get-staking-rewards (employee principal))
 
   (begin
+
+    (ok u0)
