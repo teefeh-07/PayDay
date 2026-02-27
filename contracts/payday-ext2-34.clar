@@ -11,3 +11,6 @@
 
   )
 )
+
+;; Event log for fund-payroll
+(define-data-var last-caller principal tx-sender)
