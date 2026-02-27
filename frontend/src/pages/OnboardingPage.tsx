@@ -22,3 +22,10 @@ export const OnboardingPage: React.FC<OnboardingPageProps> = ({ isAuthenticated 
 
   if (loading) return <div className="page-loader">Loading...</div>;
   if (error) return <div className="page-error">{error}</div>;
+
+  return (
+    <main className="onboardingpage-wrapper">
+      <h1>Onboarding</h1>
+      <p>New employee onboarding wizard page</p>
+    </main>
+  );
