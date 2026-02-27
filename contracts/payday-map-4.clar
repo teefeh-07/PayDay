@@ -9,3 +9,8 @@
 
 
 (define-data-var department-budget-count uint u0)
+
+
+(define-read-only (get-department-budget-count)
+  (var-get department-budget-count)
+)
