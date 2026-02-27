@@ -19,3 +19,6 @@ export const errorMiddleware = (options: errorMiddlewareOptions = { enabled: tru
     next();
   };
 };
+
+
+export default errorMiddleware;
