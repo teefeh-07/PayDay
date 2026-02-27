@@ -8,3 +8,6 @@
 
     (asserts! (> max u0) (err u204))
     (ok max)
+
+  )
+)
