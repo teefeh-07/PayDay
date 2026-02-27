@@ -12,3 +12,6 @@ interface OnboardingPageProps {
 
 export const OnboardingPage: React.FC<OnboardingPageProps> = ({ isAuthenticated }) => {
   const navigate = useNavigate();
+
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
