@@ -29,3 +29,7 @@ export const ExpenseSubmitPage: React.FC<ExpenseSubmitPageProps> = ({ isAuthenti
       <p>Expense submission form page</p>
     </main>
   );
+
+};
+
+export default ExpenseSubmitPage;
