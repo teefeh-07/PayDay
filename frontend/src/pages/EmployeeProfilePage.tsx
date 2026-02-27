@@ -29,3 +29,7 @@ export const EmployeeProfilePage: React.FC<EmployeeProfilePageProps> = ({ isAuth
       <p>Individual employee profile page</p>
     </main>
   );
+
+};
+
+export default EmployeeProfilePage;
