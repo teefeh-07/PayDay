@@ -6,3 +6,7 @@ export interface CacheServiceConfig {
   retryAttempts: number;
   timeout: number;
 }
+
+
+export class CacheService {
+  private config: CacheServiceConfig;
