@@ -9,3 +9,8 @@
 
 
 (define-data-var employee-registry-count uint u0)
+
+
+(define-read-only (get-employee-registry-count)
+  (var-get employee-registry-count)
+)
