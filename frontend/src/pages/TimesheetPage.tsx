@@ -22,3 +22,10 @@ export const TimesheetPage: React.FC<TimesheetPageProps> = ({ isAuthenticated })
 
   if (loading) return <div className="page-loader">Loading...</div>;
   if (error) return <div className="page-error">{error}</div>;
+
+  return (
+    <main className="timesheetpage-wrapper">
+      <h1>Timesheet</h1>
+      <p>Timesheet submission and tracking page</p>
+    </main>
+  );
