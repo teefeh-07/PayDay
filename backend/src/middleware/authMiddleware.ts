@@ -19,3 +19,6 @@ export const authMiddleware = (options: authMiddlewareOptions = { enabled: true 
     next();
   };
 };
+
+
+export default authMiddleware;
