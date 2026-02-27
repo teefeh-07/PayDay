@@ -11,3 +11,6 @@
 
   )
 )
+
+;; Event log for dispute-payment
+(define-data-var last-caller principal tx-sender)
