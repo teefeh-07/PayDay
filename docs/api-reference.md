@@ -11,3 +11,7 @@ Follow these steps to get started with api reference documentation.
 
 ## Configuration
 All configuration options for api reference documentation are documented here.
+
+
+## Examples
+Below are practical examples for common scenarios.
