@@ -20,3 +20,12 @@ export const TransactionHistory: React.FC<TransactionHistoryProps> = ({ title, l
 
   if (loading) return <div className="loading-spinner">Loading...</div>;
   if (error) return <div className="error-banner">{error}</div>;
+
+  return (
+    <div className="transactionhistory-container">
+      <h2>{title || 'TransactionHistory'}</h2>
+      <div className="transactionhistory-content">
+        {/* On-chain transaction history viewer */}
+      </div>
+    </div>
+  );
