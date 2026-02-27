@@ -9,3 +9,5 @@ export const AuditLogSchema = z.object({
   action: z.string(),
 
   userId: z.string(),
+
+  details: z.string(),
