@@ -24,3 +24,7 @@ export class AuthService {
   async shutdown(): Promise<void> {
     console.log('AuthService shutting down...');
   }
+
+}
+
+export default AuthService;
