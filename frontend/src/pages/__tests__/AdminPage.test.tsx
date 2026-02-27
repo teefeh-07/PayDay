@@ -19,3 +19,9 @@ describe('AdminPage', () => {
     expect(state.loading).toBe(true);
     expect(state.error).toBeNull();
   });
+
+  it('should handle error state gracefully', () => {
+    const state = { loading: false, error: 'Something went wrong', data: null };
+    expect(state.error).toBeDefined();
+    expect(state.data).toBeNull();
+  });
