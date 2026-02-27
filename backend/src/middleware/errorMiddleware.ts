@@ -14,3 +14,8 @@ export const errorMiddleware = (options: errorMiddlewareOptions = { enabled: tru
   return (req: Request, res: Response, next: NextFunction) => {
     if (!options.enabled) return next();
     console.log(`[errorMiddleware] ${req.method} ${req.path}`);
+
+    // Centralized error handling middleware logic
+    next();
+  };
+};
