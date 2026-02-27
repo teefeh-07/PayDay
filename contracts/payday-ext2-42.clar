@@ -5,3 +5,5 @@
 (define-public (emergency-pause )
 
   (begin
+
+    (ok true)
