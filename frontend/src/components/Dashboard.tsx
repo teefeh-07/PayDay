@@ -12,3 +12,8 @@ export const Dashboard: React.FC<DashboardProps> = ({ title, loading }) => {
 
   const [data, setData] = useState<any[]>([]);
   const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    // Fetch data for Dashboard
+    console.log('Dashboard mounted');
+  }, []);
