@@ -24,3 +24,7 @@ export class SchedulerService {
   async shutdown(): Promise<void> {
     console.log('SchedulerService shutting down...');
   }
+
+}
+
+export default SchedulerService;
