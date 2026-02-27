@@ -5,3 +5,6 @@
 (define-public (set-overtime-rate (rate uint))
 
   (begin
+
+    (asserts! (> rate u0) (err u108))
+    (ok rate)
