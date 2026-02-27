@@ -9,3 +9,6 @@ interface TransactionHistoryProps {
 
 
 export const TransactionHistory: React.FC<TransactionHistoryProps> = ({ title, loading }) => {
+
+  const [data, setData] = useState<any[]>([]);
+  const [error, setError] = useState<string | null>(null);
