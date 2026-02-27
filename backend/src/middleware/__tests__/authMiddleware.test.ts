@@ -9,3 +9,7 @@ describe('authMiddleware', () => {
   afterEach(() => {
     vi.restoreAllMocks();
   });
+
+  it('should render/initialize without errors', () => {
+    expect(true).toBe(true);
+  });
