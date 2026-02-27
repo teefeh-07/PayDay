@@ -5,3 +5,5 @@
 (define-public (register-department (name (string-ascii 64)))
 
   (begin
+
+    (ok true)
