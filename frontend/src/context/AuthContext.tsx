@@ -23,3 +23,10 @@ export const AuthContextProvider: React.FC<{ children: React.ReactNode }> = ({ c
     // Refresh AuthContext data
     setLoading(false);
   }, []);
+
+  return (
+    <AuthContext.Provider value={{ loading, error, data, refresh }}>
+      {children}
+    </AuthContext.Provider>
+  );
+};
