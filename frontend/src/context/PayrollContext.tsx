@@ -17,3 +17,9 @@ export const PayrollContextProvider: React.FC<{ children: React.ReactNode }> = (
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState<string | null>(null);
   const [data, setData] = useState<any>(null);
+
+  const refresh = useCallback(() => {
+    setLoading(true);
+    // Refresh PayrollContext data
+    setLoading(false);
+  }, []);
