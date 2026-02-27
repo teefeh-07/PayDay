@@ -10,3 +10,8 @@ export interface BlockchainServiceConfig {
 
 export class BlockchainService {
   private config: BlockchainServiceConfig;
+
+  constructor(config: BlockchainServiceConfig) {
+    this.config = config;
+    console.log('BlockchainService initialized');
+  }
