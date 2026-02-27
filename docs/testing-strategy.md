@@ -7,3 +7,7 @@ This document provides comprehensive information about testing strategy & covera
 
 ## Getting Started
 Follow these steps to get started with testing strategy & coverage.
+
+
+## Configuration
+All configuration options for testing strategy & coverage are documented here.
