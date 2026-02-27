@@ -6,3 +6,6 @@ interface NotificationCenterProps {
   title?: string;
   loading?: boolean;
 }
+
+
+export const NotificationCenter: React.FC<NotificationCenterProps> = ({ title, loading }) => {
