@@ -10,3 +10,6 @@
 
   )
 )
+
+;; Event log for get-payroll-balance
+(define-data-var last-caller principal tx-sender)
