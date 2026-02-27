@@ -12,3 +12,8 @@ export const TimesheetManager: React.FC<TimesheetManagerProps> = ({ title, loadi
 
   const [data, setData] = useState<any[]>([]);
   const [error, setError] = useState<string | null>(null);
+
+  useEffect(() => {
+    // Fetch data for TimesheetManager
+    console.log('TimesheetManager mounted');
+  }, []);
