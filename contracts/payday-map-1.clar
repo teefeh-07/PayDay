@@ -6,3 +6,6 @@
   principal
   { salary: uint, dept: (string-ascii 64), active: bool }
 )
+
+
+(define-data-var employee-registry-count uint u0)
