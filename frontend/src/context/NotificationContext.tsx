@@ -8,3 +8,6 @@ interface NotificationContextType {
   data: any;
   refresh: () => void;
 }
+
+
+const NotificationContext = createContext<NotificationContextType | undefined>(undefined);
