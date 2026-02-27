@@ -25,3 +25,5 @@ describe('Integration: blockchain-tx', () => {
   afterAll(async () => {
     console.log('blockchain-tx integration test cleanup done.');
   });
+
+});
