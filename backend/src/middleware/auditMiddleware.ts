@@ -14,3 +14,8 @@ export const auditMiddleware = (options: auditMiddlewareOptions = { enabled: tru
   return (req: Request, res: Response, next: NextFunction) => {
     if (!options.enabled) return next();
     console.log(`[auditMiddleware] ${req.method} ${req.path}`);
+
+    // Automatic audit trail middleware logic
+    next();
+  };
+};
