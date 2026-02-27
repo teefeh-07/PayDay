@@ -6,3 +6,6 @@
   uint
   { interval: uint, last-run: uint, next-run: uint }
 )
+
+
+(define-data-var payroll-schedule-count uint u0)
