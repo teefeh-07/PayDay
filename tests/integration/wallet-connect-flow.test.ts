@@ -21,3 +21,7 @@ describe('Integration: wallet-connect-flow', () => {
     expect(errorResult.success).toBe(false);
     expect(errorResult.error).toBeDefined();
   });
+
+  afterAll(async () => {
+    console.log('wallet-connect-flow integration test cleanup done.');
+  });
