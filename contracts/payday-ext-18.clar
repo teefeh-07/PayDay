@@ -3,3 +3,5 @@
 ;; No as-contract usage
 
 (define-public (calculate-deduction (gross uint) (deduction uint))
+
+  (begin
