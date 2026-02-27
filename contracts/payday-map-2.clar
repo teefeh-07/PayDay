@@ -14,3 +14,11 @@
 (define-read-only (get-payroll-schedule-count)
   (var-get payroll-schedule-count)
 )
+
+
+(define-public (increment-payroll-schedule-count)
+  (begin
+    (var-set payroll-schedule-count (+ (var-get payroll-schedule-count) u1))
+    (ok (var-get payroll-schedule-count))
+  )
+)
