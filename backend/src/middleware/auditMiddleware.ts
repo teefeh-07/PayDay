@@ -19,3 +19,6 @@ export const auditMiddleware = (options: auditMiddlewareOptions = { enabled: tru
     next();
   };
 };
+
+
+export default auditMiddleware;
