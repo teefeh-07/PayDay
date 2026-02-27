@@ -30,3 +30,12 @@ export const NotificationContextProvider: React.FC<{ children: React.ReactNode }
     </NotificationContext.Provider>
   );
 };
+
+
+export const useNotification = () => {
+  const ctx = useContext(NotificationContext);
+  if (!ctx) throw new Error('useNotification must be used within NotificationContextProvider');
+  return ctx;
+};
+
+export default NotificationContext;
