@@ -5,3 +5,6 @@
 (define-public (request-advance (amount uint))
 
   (begin
+
+    (asserts! (<= amount u10000) (err u106))
+    (ok amount)
