@@ -5,3 +5,6 @@
 (define-public (update-salary (employee principal) (new-salary uint))
 
   (begin
+
+    (asserts! (> new-salary u0) (err u102))
+    (ok new-salary)
