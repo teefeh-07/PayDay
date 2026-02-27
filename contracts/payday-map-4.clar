@@ -1,0 +1,32 @@
+;; PayDay Data Map: department-budget
+;; Stores on-chain state for payroll operations
+
+
+(define-map department-budget
+  (string-ascii 64)
+  { total: uint, spent: uint, remaining: uint }
+)
+
+
+(define-data-var department-budget-count uint u0)
+
+
+(define-read-only (get-department-budget-count)
+  (var-get department-budget-count)
+)
+
+
+(define-public (increment-department-budget-count)
+  (begin
+    (var-set department-budget-count (+ (var-get department-budget-count) u1))
+    (ok (var-get department-budget-count))
+  )
+)
+
+
+;; Error constants for department-budget
+(define-constant ERR_NOT_FOUND (err u404))
+(define-constant ERR_UNAUTHORIZED (err u403))
+
+
+;; Map initialized successfully for department-budget
