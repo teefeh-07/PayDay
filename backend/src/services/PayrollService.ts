@@ -24,3 +24,7 @@ export class PayrollService {
   async shutdown(): Promise<void> {
     console.log('PayrollService shutting down...');
   }
+
+}
+
+export default PayrollService;
