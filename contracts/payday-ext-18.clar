@@ -5,3 +5,5 @@
 (define-public (calculate-deduction (gross uint) (deduction uint))
 
   (begin
+
+    (ok (- gross deduction))
