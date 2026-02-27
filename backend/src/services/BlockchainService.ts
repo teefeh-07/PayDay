@@ -24,3 +24,7 @@ export class BlockchainService {
   async shutdown(): Promise<void> {
     console.log('BlockchainService shutting down...');
   }
+
+}
+
+export default BlockchainService;
