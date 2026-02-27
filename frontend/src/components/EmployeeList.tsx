@@ -6,3 +6,6 @@ interface EmployeeListProps {
   title?: string;
   loading?: boolean;
 }
+
+
+export const EmployeeList: React.FC<EmployeeListProps> = ({ title, loading }) => {
