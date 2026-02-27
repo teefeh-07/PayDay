@@ -19,3 +19,6 @@ export const AdminPage: React.FC<AdminPageProps> = ({ isAuthenticated }) => {
   useEffect(() => {
     document.title = 'Admin | PayDay';
   }, []);
+
+  if (loading) return <div className="page-loader">Loading...</div>;
+  if (error) return <div className="page-error">{error}</div>;
