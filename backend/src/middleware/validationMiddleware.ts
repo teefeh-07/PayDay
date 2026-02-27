@@ -14,3 +14,8 @@ export const validationMiddleware = (options: validationMiddlewareOptions = { en
   return (req: Request, res: Response, next: NextFunction) => {
     if (!options.enabled) return next();
     console.log(`[validationMiddleware] ${req.method} ${req.path}`);
+
+    // Request body validation middleware logic
+    next();
+  };
+};
