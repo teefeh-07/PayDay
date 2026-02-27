@@ -29,3 +29,7 @@ export const AdminPage: React.FC<AdminPageProps> = ({ isAuthenticated }) => {
       <p>Admin management and configuration page</p>
     </main>
   );
+
+};
+
+export default AdminPage;
