@@ -7,3 +7,6 @@ interface cacheMiddlewareOptions {
   strict?: boolean;
   timeout?: number;
 }
+
+
+export const cacheMiddleware = (options: cacheMiddlewareOptions = { enabled: true }) => {
