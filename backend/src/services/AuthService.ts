@@ -10,3 +10,8 @@ export interface AuthServiceConfig {
 
 export class AuthService {
   private config: AuthServiceConfig;
+
+  constructor(config: AuthServiceConfig) {
+    this.config = config;
+    console.log('AuthService initialized');
+  }
